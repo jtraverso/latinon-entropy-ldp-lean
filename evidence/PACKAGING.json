@@ -3297,7 +3297,7 @@
       "separate Challenge and Solution libraries"
     ]
   },
-  "challenge_bytes": 22416,
+  "challenge_bytes": 22350,
   "compared_theorems": [
     "LatinonEntropy.latinonCutDistance_self",
     "LatinonEntropy.latinonCutDistance_symm",

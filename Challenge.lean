@@ -187,21 +187,21 @@ def finiteLatinMeasure {n : ℕ} (L : LatinArray n) : Measure ((I × I) × I) :=
         (volume.restrict (lebesgueGridCell (L.val x y)))
 
 /-- Uniform row/column marginal of the grid embedding. Auxiliary comparison. -/
-theorem finiteLatinMeasure_xy_real {n : ℕ} (hn : 0 < n) (L : LatinArray n) (S T : Set I)
+theorem finiteLatinMeasure_xy {n : ℕ} (hn : 0 < n) (L : LatinArray n) (S T : Set I)
     (hS : MeasurableSet S) (hT : MeasurableSet T) :
-    (finiteLatinMeasure L).real ((S ×ˢ T) ×ˢ Set.univ) = volume.real S*volume.real T := by
+    finiteLatinMeasure L ((S ×ˢ T) ×ˢ Set.univ) = volume S*volume T := by
   sorry
 
 /-- Uniform row/symbol marginal of the grid embedding. Auxiliary comparison. -/
-theorem finiteLatinMeasure_xz_real {n : ℕ} (hn : 0 < n) (L : LatinArray n) (S U : Set I)
+theorem finiteLatinMeasure_xz {n : ℕ} (hn : 0 < n) (L : LatinArray n) (S U : Set I)
     (hS : MeasurableSet S) (hU : MeasurableSet U) :
-    (finiteLatinMeasure L).real ((S ×ˢ Set.univ) ×ˢ U) = volume.real S*volume.real U := by
+    finiteLatinMeasure L ((S ×ˢ Set.univ) ×ˢ U) = volume S*volume U := by
   sorry
 
 /-- Uniform column/symbol marginal of the grid embedding. Auxiliary comparison. -/
-theorem finiteLatinMeasure_yz_real {n : ℕ} (hn : 0 < n) (L : LatinArray n) (T U : Set I)
+theorem finiteLatinMeasure_yz {n : ℕ} (hn : 0 < n) (L : LatinArray n) (T U : Set I)
     (hT : MeasurableSet T) (hU : MeasurableSet U) :
-    (finiteLatinMeasure L).real ((Set.univ ×ˢ T) ×ˢ U) = volume.real T*volume.real U := by
+    finiteLatinMeasure L ((Set.univ ×ˢ T) ×ˢ U) = volume T*volume U := by
   sorry
 
 /-- The finite square as a Latinon with identity order. -/
