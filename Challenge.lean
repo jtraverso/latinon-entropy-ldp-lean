@@ -204,11 +204,18 @@ theorem finiteLatinMeasure_yz {n : ℕ} (hn : 0 < n) (L : LatinArray n) (T U : S
     finiteLatinMeasure L ((Set.univ ×ˢ T) ×ˢ U) = volume T*volume U := by
   sorry
 
+/-- The identity order map preserves Lebesgue measure. In the source module this
+proof is Lean's generated certificate `latinArrayToLatinonMeasure._proof_1`; here it is
+named explicitly, because inside one file Lean would otherwise reuse the identical
+certificate generated for `uniformLatinonMeasure`. Compared by its statement. -/
+theorem latinArrayToLatinonMeasure._proof_1 : MeasurePreserving (id : I → I) volume volume :=
+  MeasurePreserving.id volume
+
 /-- The finite square as a Latinon with identity order. -/
 def latinArrayToLatinonMeasure {n : ℕ} (hn : 0 < n) (L : LatinArray n) : LatinonMeasure where
   measure := finiteLatinMeasure L
   order := id
-  order_preserving := MeasurePreserving.id volume
+  order_preserving := latinArrayToLatinonMeasure._proof_1
   xy_uniform := finiteLatinMeasure_xy hn L
   xz_uniform := finiteLatinMeasure_xz hn L
   yz_uniform := finiteLatinMeasure_yz hn L

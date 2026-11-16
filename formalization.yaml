@@ -87,8 +87,9 @@ related_formalizations:
 status:
   scope: >-
     Nine principal statements, six auxiliary metric and grid-marginal
-    identities, one generated conditional-kernel finiteness certificate, and
-    three generated marginal certificates for the uniform measure are compared.
+    identities, one generated conditional-kernel finiteness certificate, three
+    generated marginal certificates for the uniform measure and the identity
+    certificate of the finite embedding are compared.
     These certificates are proved on both sides, with their statements checked
     independently of the implementation of their proofs. The Solution contains the complete included proof
     development, rather than an external theorem oracle. The CDR and bipartite
@@ -127,6 +128,9 @@ fidelity:
     The standalone interface spells out the original generated instance names
     and reproduces the two local LatinArray enumeration instances, preserving
     the exact references required by Comparator's structural comparison.
+    The identity order certificate of the finite embedding is stated as an
+    explicitly named theorem with Lean's generated name, because within one
+    file Lean reuses identical generated proof certificates across definitions.
 
 review:
   status: agent-reviewed

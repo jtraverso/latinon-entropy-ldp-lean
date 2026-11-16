@@ -20,7 +20,8 @@
     "LatinonEntropy.latinonSymbolKernel._proof_1",
     "LatinonEntropy.uniformLatinonMeasure._proof_1",
     "LatinonEntropy.uniformLatinonMeasure._proof_2",
-    "LatinonEntropy.uniformLatinonMeasure._proof_3"
+    "LatinonEntropy.uniformLatinonMeasure._proof_3",
+    "LatinonEntropy.latinArrayToLatinonMeasure._proof_1"
   ],
   "definition_names": [],
   "permitted_axioms": [
