@@ -87,9 +87,10 @@ related_formalizations:
 status:
   scope: >-
     Nine principal statements, six auxiliary metric and grid-marginal
-    identities, and one generated conditional-kernel finiteness certificate
-    are compared. The certificate is proved on both sides, with its statement
-    checked independently of the implementation of its proof. The Solution contains the complete included proof
+    identities, one generated conditional-kernel finiteness certificate, and
+    three generated marginal certificates for the uniform measure are compared.
+    These certificates are proved on both sides, with their statements checked
+    independently of the implementation of their proofs. The Solution contains the complete included proof
     development, rather than an external theorem oracle. The CDR and bipartite
     applications remain in the source but are not separate compared claims.
     No exact finite-n pattern count, globally uniform target radius, numerical

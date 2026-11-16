@@ -17,7 +17,10 @@
     "LatinonEntropy.empty_standard_pattern_fiber_eventually_zero",
     "LatinonEntropy.finite_latin_tensor_lower_bound",
     "LatinonEntropy.correction_lemma_five",
-    "LatinonEntropy.latinonSymbolKernel._proof_1"
+    "LatinonEntropy.latinonSymbolKernel._proof_1",
+    "LatinonEntropy.uniformLatinonMeasure._proof_1",
+    "LatinonEntropy.uniformLatinonMeasure._proof_2",
+    "LatinonEntropy.uniformLatinonMeasure._proof_3"
   ],
   "definition_names": [],
   "permitted_axioms": [

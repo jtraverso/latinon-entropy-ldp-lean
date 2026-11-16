@@ -40,11 +40,13 @@ without importing project proofs. Every hole in Challenge is named in
 `comparator.json`; the proved Solution may use only `propext`, `Classical.choice`
 and `Quot.sound`.
 
-The configuration also compares the generated finiteness certificate
-`latinonSymbolKernel._proof_1`. Both sides prove this auxiliary proposition;
-it is selected so Comparator checks its statement while permitting different
-proof terms. The Challenge still has exactly fifteen deliberate theorem holes
-and no definition holes.
+The configuration also compares four generated proof certificates: the
+conditional-kernel finiteness certificate `latinonSymbolKernel._proof_1` and
+the three marginal certificates `uniformLatinonMeasure._proof_1` through
+`uniformLatinonMeasure._proof_3`. Both sides prove these auxiliary propositions;
+Comparator checks their statements while permitting different proof terms.
+The Challenge still has exactly fifteen deliberate theorem holes and no
+definition holes.
 
 The distance includes independent row and column alignments, both order terms,
 and measurable row/column cuts tested on symbol intervals. The finite law is the
