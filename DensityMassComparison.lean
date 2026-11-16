@@ -1,5 +1,7 @@
 module
 
+public import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+
 public import Mathlib.MeasureTheory.Measure.Decomposition.IntegralRNDeriv
 public import Mathlib.MeasureTheory.Integral.Bochner.Set
 

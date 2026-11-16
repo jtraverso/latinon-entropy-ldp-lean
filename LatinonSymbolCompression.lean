@@ -1,5 +1,7 @@
 module
 
+public import Mathlib.MeasureTheory.Measure.Decomposition.RadonNikodym
+
 public import LatinonMeasureSpace
 public import Mathlib.MeasureTheory.Measure.Decomposition.IntegralRNDeriv
 

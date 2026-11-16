@@ -1352,7 +1352,7 @@ theorem l2_norm_eq_energy_add_defect (W : Graphon α μ) (P : MeasurablePartitio
   rw [Finset.sum_product]
 
 /-- Energy contribution from a single rectangle. -/
-private noncomputable def energyRect (W : Graphon α μ) (S T : Set α) : ℝ :=
+noncomputable def energyRect (W : Graphon α μ) (S T : Set α) : ℝ :=
   (μ S).toReal * (μ T).toReal * (rectAverage W S T) ^ 2
 
 /-- The energy difference when replacing S with S₁ ∪ S₂ = S in the energy sum.

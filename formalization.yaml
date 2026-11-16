@@ -116,8 +116,11 @@ fidelity:
     identities are exposed as additional compared statements so no project
     source is imported by Challenge. The published source archive is identified
     by SHA-256 in evidence/PACKAGING.json. Source modules missing the module
-    header receive only module, public-import and exposed-public-section
-    adapters; proof bodies and mathematical statement tokens are unchanged.
+    header receive module, public-import and exposed-public-section adapters.
+    Three files explicitly import Mathlib's RadonNikodym module, and the
+    existing Graphon energyRect helper is made public because its original
+    public lemma statement uses it. Proof bodies and mathematical statement
+    tokens are unchanged.
 
 review:
   status: agent-reviewed

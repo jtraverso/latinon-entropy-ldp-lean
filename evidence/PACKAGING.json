@@ -208,11 +208,12 @@
     {
       "path": "DensityMassComparison.lean",
       "original_sha256": "f261d847e0385651e61498cea8c997c7e376c7efa9ecbdd8ae2175e7b3bedd3e",
-      "adapted_sha256": "e192cac59724937c8652f447eb7599aa0b7554c4bf405ba01e113725456a0ef8",
+      "adapted_sha256": "735d61b1e85fb8f18381e433a67e1714682f060b0e333a0e18bcad01235e8cef",
       "changes": [
         "module header",
         "public imports",
-        "exposed public section"
+        "exposed public section",
+        "explicit RadonNikodym import required by module visibility"
       ]
     },
     {
@@ -698,11 +699,12 @@
     {
       "path": "Graphon/CutDistance.lean",
       "original_sha256": "a8b1ae38d06835a6860ebde6902be908c9e5509cc8f44852b46a7a6a403d90a9",
-      "adapted_sha256": "95c7f2bd2d040db8853167ba7db6fb738fb76dee4f59b815d9b58f612f167279",
+      "adapted_sha256": "3177269cab12421d56ee91342138cb4b0734ea0d71f24e98fce0995f9869bdc8",
       "changes": [
         "module header",
         "public imports",
-        "exposed public section"
+        "exposed public section",
+        "explicit RadonNikodym import required by module visibility"
       ]
     },
     {
@@ -748,11 +750,12 @@
     {
       "path": "Graphon/Regularity.lean",
       "original_sha256": "5859915acbb77f22a70e44b048d386f227b03d4d6813cffe7e5ddd88290aafb8",
-      "adapted_sha256": "d46da3c25dd1f6168a57d4b79eda7f02a230681f6d93481729cd37a2d18cde93",
+      "adapted_sha256": "3c236c249d59adf230845cf276cadfb82b0f8eb48d0c5123e65d2a7dbff6fe79",
       "changes": [
         "module header",
         "public imports",
-        "exposed public section"
+        "exposed public section",
+        "public energyRect visibility for its existing public lemma statement"
       ]
     },
     {
@@ -1898,11 +1901,12 @@
     {
       "path": "LatinonSymbolCompression.lean",
       "original_sha256": "812ae5cb72ce09bcbbc01e6d5f698bf139fa1177eaa02b9ca960612f3738a183",
-      "adapted_sha256": "2e7a3f5814fd611208289e5889ec24d603ba867bc61b98e827ea49fffaeda8af",
+      "adapted_sha256": "75e28168e9fb9f6afda2b7853f12d009ce00df4fa9f299fdf62c7ca5886cb193",
       "changes": [
         "module header",
         "public imports",
-        "exposed public section"
+        "exposed public section",
+        "explicit RadonNikodym import required by module visibility"
       ]
     },
     {
