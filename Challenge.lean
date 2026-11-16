@@ -424,8 +424,8 @@ theorem empty_standard_pattern_fiber_eventually_zero {J : Type*} [Fintype J] {k 
 /-- Finite squares satisfying every three-coordinate subset-cut tolerance. -/
 def latinTensorCutFamily {n : ℕ} (p : Fin n → Fin n → Fin n → ℝ) (rho : ℝ) :
     Finset (LatinArray n) :=
-  univ.filter (fun L => ∀ I U V : Finset (Fin n),
-    |∑ x ∈ I, ∑ i ∈ U, ∑ j ∈ V, ((if L.val x i = j then (1 : ℝ) else 0)-p x i j)| ≤
+  univ.filter (fun L => ∀ «I» U V : Finset (Fin n),
+    |∑ x ∈ «I», ∑ i ∈ U, ∑ j ∈ V, ((if L.val x i = j then (1 : ℝ) else 0)-p x i j)| ≤
       rho*(n : ℝ)^2)
 
 /-- Theorem 3.1: a common order threshold for all bounded positive tristochastic profiles. -/
