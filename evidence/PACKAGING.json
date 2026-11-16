@@ -1,0 +1,3319 @@
+{
+  "status": "PASS_STATIC_SOURCE_PREPARATION_NOT_ELABORATED",
+  "published_repository": "jtraverso/latinon-entropy-ldp",
+  "published_commit": "4bf8be21e0dfe72afe7039d649098ebfd5265b73",
+  "archive_sha256": "567ac3561332351313d176018f5d41e475f88bfbd031cf05dad6b448635cfe81",
+  "local_lean_build_performed": false,
+  "adaptations": [
+    {
+      "path": "AlignedIntervalIntegrals.lean",
+      "original_sha256": "83e3c2bee50d9f5b0ae6fbaed6db3b1570fae9da7e31bca8a55f771064777d65",
+      "adapted_sha256": "beb0badf98beb3459d27a4fa0a1e6241d97063486fec39b240e4dcb926be4119",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "AllSizesOrderPermutation.lean",
+      "original_sha256": "1e0373b966f62065aea9e3b390aefc3b3141b612080ef5033c2e5caff3e3e7c2",
+      "adapted_sha256": "70299fe894dee9822041d6c2ef4097eecac92b9de83e0953082142fe4c485a32",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "BoundedLatinonFixedTarget.lean",
+      "original_sha256": "daf185711893c2b6bb1a6546e583c5f9ac2523a974430f8a869e0a0f6a54ab28",
+      "adapted_sha256": "b5f27039b8f5f948e78dd08d4532f8a63243d88cea72545e9aad4383b798c28d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "BoundedLatinonGridProfile.lean",
+      "original_sha256": "0893a243e0cf9b76bfe6e25287f8207acc54c382e38b83ab7391166774d3738d",
+      "adapted_sha256": "e3a228fcc18d8d8510b658d55bcf64dc18c66770098262a36e757ee228f9cde0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "BoundedLatinonRate.lean",
+      "original_sha256": "21c460a77bc5e0919ba0c2ac17069f646c72896b5563c518cdd9b7e7f527c758",
+      "adapted_sha256": "e94ba5058758fac4b63d62720371b096e5809d5948f1ae16d8889d571d37e917",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "BoxCorrection.lean",
+      "original_sha256": "5d7364b2d379db705775d0f75d1c5dedacaa67c43b8aae871b65ea7cf908e0dc",
+      "adapted_sha256": "ab71a2757b44cedd26f14c3672bb6f073e2be6d1ad0bee0465eac0bea3a1bb5d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CheckC5Synchronous.lean",
+      "original_sha256": "bb041c7cd9cfe95534e80c4279e4a5d403d323d59596a9ea8c9a278ff79ea91f",
+      "adapted_sha256": "582d0a1125c9fda53b622c8fa3c013f1b3f6784135140e4686e2e44854527fae",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CheckC7DensityDefinitions.lean",
+      "original_sha256": "9ad07aca776665ba940c6edeece8106f1277dcfecb8b5a502947f2a89a10b762",
+      "adapted_sha256": "da2d0afe50df1d9fd59b28b7bfd5b675e6c63c0fc7d2835f10ce4b6117e2868b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CheckC7KernelCounting.lean",
+      "original_sha256": "65191754ec50ca05476026f833354604c9eca0296ef399196774ae4ec3c8b192",
+      "adapted_sha256": "402e2b8c3647768de6fa2cb2cc1c7a61ddf9f30d066576e552b438fbad44aa04",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CheckC7WeightedPatterns.lean",
+      "original_sha256": "d5881d9de8910fffdc7396e8c212536bb4781b4865f5c616a316a8eb7a29d353",
+      "adapted_sha256": "2b9e69eb8723653a3f1a1fa65562ccf82f8c79b3ec556dfb45c3a2559f119680",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CompactUniformLatinonUpper.lean",
+      "original_sha256": "d1a9f5d867b21ba7813ae9ec42a0373a31229544ddbdb28d4b04ed760643829c",
+      "adapted_sha256": "49fc3f7e3feaa324b013e70f55288c41d378f9694ded48b0291db45783e96152",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ConditionalGridApproximation.lean",
+      "original_sha256": "ae3c0a41bd55f8efd3ebdb0c818f2a1a78dbcd06b8dd3c573701ab45c3b15e5a",
+      "adapted_sha256": "b8ae44757c9cb5675356c814cb19f34d96cf2b64ab694423e682387dc8f84478",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CoordinateResampling.lean",
+      "original_sha256": "daf979984c75675cfeacc93a31c44ac8d72150aeff7377630826c679f8b7f065",
+      "adapted_sha256": "8bde2abda9192a016344c3bb76b50d71bd20912dd025e8eeba615c94e3e095ad",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CorrectedRowEntropy.lean",
+      "original_sha256": "9d8320e56038f9decd6d7bf6ccb07f101b2a618f2016834d3534d5d712778074",
+      "adapted_sha256": "cc4a7e080bfa753f73e1b7426201643edad29ced2c1163f7d5c642e57343c02b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CorrectedRowPolicy.lean",
+      "original_sha256": "71eaa373e61fa35f24bd2b03603a8ce8ae814601e3fe89eba0c66db78e4a5398",
+      "adapted_sha256": "d1d5b815ab4241096033137776b4b0fc0990f77b07bc67aaa7207404438552fb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CorrectionFive.lean",
+      "original_sha256": "8ca68bbcfb5ff0c3aad4c12e28462864953929ef02ba6aacf4b264c89ab35c21",
+      "adapted_sha256": "0429c6a1ff168d55313c9b5cb738802af0ecc52c76888a068a4a2fb6a2fc8f86",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CorrectionOptimizer.lean",
+      "original_sha256": "b9309bd5ec487992980140d1f9f103e90e4691e901018fc9e18129348cc49ad0",
+      "adapted_sha256": "5b1600062e7fc21fef457d1dde89d4cd821586cf0ed425b0e4cbe8d1a73ec7dc",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CubeGridL1Approximation.lean",
+      "original_sha256": "400a18428af8c5fa25d7e249cb963844fab8537164ad1219f17fb7e5c2de642d",
+      "adapted_sha256": "f44327dbfeeee1d98c9636f75f83f6bd593fb1c66abecdc75ea2cb2416252fa7",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CubeObservationDensity.lean",
+      "original_sha256": "f3a462db838dbb161ca23e8be1a9d1f5dc351358aa52a535ff6b12224cdfd560",
+      "adapted_sha256": "d905f57f84b40189ca8f979cab39651bceb4993dcd6122a45386bc4af1f4011f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "CutDensityBounds.lean",
+      "original_sha256": "8d9723862a086ad94e691bbed7acb4ce4cea0971ba301d237e9d4638fb33d11a",
+      "adapted_sha256": "f111697ec8ba3c943d94d9f05bef7ade22a6c34812a6316a89b20bb28dfe5d31",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "DensityMassComparison.lean",
+      "original_sha256": "f261d847e0385651e61498cea8c997c7e376c7efa9ecbdd8ae2175e7b3bedd3e",
+      "adapted_sha256": "e192cac59724937c8652f447eb7599aa0b7554c4bf405ba01e113725456a0ef8",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "DriftBudgetAsymptotics.lean",
+      "original_sha256": "2788f69997239da0c658094ebaadc3cd459bbd768b2a0790050a54dedb4070fb",
+      "adapted_sha256": "0de2046b0266bbe58bdf831deb6d75b2c239a7f180fe3e35ee17df564ec5b54b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "DyadicCoordinateFiltration.lean",
+      "original_sha256": "387f21456f71b8c7030a41f6104c84ee23703178dbc6f4609cf7d73150ce77eb",
+      "adapted_sha256": "971e1230d35d600556ab461e0944340e849375d29ec9e9f993b54a624f7e3749",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "DyadicCubeFiltration.lean",
+      "original_sha256": "15b00422bd1e9c228ee2b26fcef6d89a8014555a79842289c444aa51760b4da4",
+      "adapted_sha256": "d21a27fbc4d56c00a4211a2e7105b304b7033e67fee8b3d2361328cc725859b0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "EdgeProductFactorization.lean",
+      "original_sha256": "249fab4e9f14db87d22abf3828e273f99c890365446790dd35477e10d1477137",
+      "adapted_sha256": "69dd42dba65641de90494909edbc769c286c8f64cbcaeb99ae5f3bf22fbf183e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "EntropyCorrection.lean",
+      "original_sha256": "c4b9cbb3bdba0536a7bf8854689c2c38da016e3d2aedb847634cff7038766745",
+      "adapted_sha256": "4e82bb7f33774185a11b59dd8c5b2292460b1f690b9fc392ab5feab6d8a55205",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "EntropyRateAsymptotics.lean",
+      "original_sha256": "a1e2c9604a8cb2ab518d6dbf6817a2d147e25cab9d2b84386f00e4e9363390a1",
+      "adapted_sha256": "d19768c3f83826ee1aca31e01923b74cf66dbeaace594bdf24359fb16ff634f0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "EntropyWeights.lean",
+      "original_sha256": "2f312d823067b882ecbaeca380f84861aea4f0824f12f1e92a92d3339670fe42",
+      "adapted_sha256": "669e62702a3f2d130517c029ce88ed15682bdae6579768833168f8e77dc7b831",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ExpectedFluidEntropy.lean",
+      "original_sha256": "40b1ec9822b5219a54999ad28fe099bc631b7cadd3add5e90d6b428cb86302bd",
+      "adapted_sha256": "9cf9a8b55731a7243c72b54f28674402321fc6998230bf5853fa76ae87e9d188",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ExpectedMainRowEntropy.lean",
+      "original_sha256": "cca5e5b06c894b5df10514948c0308f4549c2c9b3fcf46813437a0991ff60b6f",
+      "adapted_sha256": "828337f8990674991f49fed54593b52e163bfa4fc7408b015075ad8883a93a4e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ExpectedTailEntropy.lean",
+      "original_sha256": "0454591388e3a3aa79fac361be3b5b6fc44f63565b6dcc2ca0c4c96fed8fbffb",
+      "adapted_sha256": "bbc61b333f73974a01e1351c2d2754db22ade4a1263727920d25c2275d82c46a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ExponentialUnionRates.lean",
+      "original_sha256": "34026c36c85bdffda3fe4eefad915a4dbe12a6ee769398b13be9af9d7c24bcbf",
+      "adapted_sha256": "7597d181916d84d0973c4184ae06965c9f58a67c4888eda8a8ac1c6817930b43",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FallbackEntropy.lean",
+      "original_sha256": "058bb6423eb9e9c48df35e92f67e66a0c5f510ecba145e73d0911078ad5f0555",
+      "adapted_sha256": "26addba579e4ece172816dea5e7b18face580cf51a5058dfeea835e2e811fc21",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteAverages.lean",
+      "original_sha256": "4832217d3d4b7c2a3cced357b62c9ff4b9e25e3ce3f92a6f990355d484b01ac2",
+      "adapted_sha256": "4bf444e55d4b3c36f04d2a37a0e7e525a66ac32fafb3aab07d0ad195545f2ed7",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteBlockEntropy.lean",
+      "original_sha256": "4421469c9e2efc8d422bf75c6ce7684ca6de3b4273e95fc22188e701e992fae9",
+      "adapted_sha256": "90e661bd483131cfa39330c2225aa66e665d34b52b46c63cf1d8d67b3425e065",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteCellKL.lean",
+      "original_sha256": "87c238163e8a569f0654bc01add568e84929c42d3ca0c4b8be7f0f544d5e1a3d",
+      "adapted_sha256": "2435d7130dda486527f0d1d4104792ce7f0c69f1e4748b0f727d5c5dbe826c9e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteChernoff.lean",
+      "original_sha256": "a2966ccce2b05d5f9f8bb17aa17ffc6e3b439cb1ffc0891cf7677569f6d7fbe8",
+      "adapted_sha256": "1ed24eb17164c39f3f5ad74c6429f730358774a3e24c59375e451cb42504ec78",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteCore.lean",
+      "original_sha256": "32a7168ec12b8f318adc196df46f9a11c363b1681173763604aea2912a856e72",
+      "adapted_sha256": "86dc689db16c3f01581d53a1e4299bad2df9a3aa949f81d39742a4be4e078e40",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteDefectGronwall.lean",
+      "original_sha256": "74a0a34f7a38e784522520c737e51e246ad252949a938361fe0efc0db64db4b9",
+      "adapted_sha256": "266cf892197e947c45b71b25ce526aced0a4d47314bd7f4581085ee24a554dc4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteEntropyCap.lean",
+      "original_sha256": "a8818ee0dbee5ebf317fad22609af590e9cde8417566e54f2c9704ea2f0820ef",
+      "adapted_sha256": "049001dabf37381c32281642e4aef9cf0d0e4b57a5cf07bc87e6e2c14f036337",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteEntropyCount.lean",
+      "original_sha256": "2cd4a70ae09ea35e3e25b4c623a6b2c20d0cf52f01cedcf5a299e62d3f78e480",
+      "adapted_sha256": "8415bddbad6af11c09339eb0a8fa8fc2b9873fa34de83f1db427875a875d3b32",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteEntropyPartition.lean",
+      "original_sha256": "5eaa443974a2d2f22b1adf06d80c967b394e9209b17efa4ccb7765f1cad79cbb",
+      "adapted_sha256": "11db6d179414d76a4cc73096bb8927ccdd3ac04bf65106e9da903247bc572240",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteHistory.lean",
+      "original_sha256": "acb368ce77aa5a1a461defdc5ef9ce358ca11881bf631254808e333c064c73e8",
+      "adapted_sha256": "d1da75ae5fde728d8bde278cdb3481eaa2d75637e44970790c18fd0529470fea",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteHoeffding.lean",
+      "original_sha256": "b7a2eb20d243cafd53d6448c3c23a74a16a2e646fa1c7dbdb0fd63db49189eec",
+      "adapted_sha256": "67acc00f1688421bcbab1046d7562f6739a9defc880d6ca2cd6455811bdd1ea9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteIndependentKernel.lean",
+      "original_sha256": "ec9cbe52d13b2a9130290cbb65bd3f4307d7bec61065dd9e9379a802f28f047b",
+      "adapted_sha256": "f01204648bbf7980fe80c9c27fab64e435ec487dbedecb91f2ec20eac0a7c8c6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteKLPerturbation.lean",
+      "original_sha256": "583f7d9485cced2dc044c8613bdd8582bc57e82b4c74133e32ebe9be8ab19b64",
+      "adapted_sha256": "7387156ce0096fd5b9f71880fc1f31ec6ec745cf691143c5efd1580388949305",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteKernelCounting.lean",
+      "original_sha256": "459c2185ac7f0dc9b6e33c1fe2c4ea507b007298985a15d2fc2114b86a619745",
+      "adapted_sha256": "f524ea2048e66163ecab9847de5e1cd5c27530c5bf762926f7e8dc7a1e56a4e3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLabelMoments.lean",
+      "original_sha256": "9b5d854809a632aefe4d7dd3f61ad3e9d98182a88c2621a55257cb34894e837d",
+      "adapted_sha256": "6c372254eeecc77a17917c028e91da0678c7b7905bb720c5a8d5d0a4ee75e682",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLabelPairs.lean",
+      "original_sha256": "3f7182316689ba3611cab53bd3f36c627ac529a56e5a047939fb972f77dbe05e",
+      "adapted_sha256": "8eaba0d37ba424f15669addeffc241c532fbc22f74b00aa18978d5193f314cb3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLabelProducts.lean",
+      "original_sha256": "52e1bd9d96a8d3423d055afa913ccdb8e96e9a3eec700f20f9ba5e9b5b27bb80",
+      "adapted_sha256": "07b26545eb7a734e037e0179a37ff02f129ac4535333c07bd837f76804eef823",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLabelThresholds.lean",
+      "original_sha256": "ae5f3e8690628ee66d3d6ce03abee8214ee1e15d48c05c5a5834fce0e22ac83f",
+      "adapted_sha256": "d750dd6284e2489210c9ffc6279e6cd26dff17b14b6dc2e61ea81f678701f5a2",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLatinLowerBound.lean",
+      "original_sha256": "3d1e878e7182ecf877b70199c9af97eb9b905ee4bb594ac1673dea17bd46e44d",
+      "adapted_sha256": "c3212c3017bbff89638fadbc7d841b7843db141ab915f50762b149b78459037b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLatinMeasure.lean",
+      "original_sha256": "6c9f3ab5fe795e79b7649dea4e84c98b99938ebd2b87589b607a93f470a7b094",
+      "adapted_sha256": "783c202e310dcfbc6270f1feac2c523a01ea41b09b9f0f37e2abceea5461f962",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLatinMeasureIntervals.lean",
+      "original_sha256": "9b44c6351ae74952aa4b939810f7500e78ec395419c9f1ed2d6f714ed6dbac1e",
+      "adapted_sha256": "4c562c9993ebbbf80dc5e243bf0df7abb1cae3cb31d895ccc566eb5869c5be7f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteLatinMeasureMargins.lean",
+      "original_sha256": "3939551f22c7be4e49b4ac6a917a2f582d287781d367011a8d7aa7240a25f7da",
+      "adapted_sha256": "3dbe5d27e5949d7c7e315f0fa4b7120e017f408627b113462b26c4353c9191fa",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteMeasureKL.lean",
+      "original_sha256": "c51a580b4dbde247e650d651f4a92dd96802a09c6c0d44d1cc5a30c76c520fe7",
+      "adapted_sha256": "84a51918133e1d7313b31bf986f68fce4aa56be2de207f5f2ba33a7a13e15f54",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FinitePriorityKey.lean",
+      "original_sha256": "5a41f2fbc1da6f0c56360bf6afa1d34595dccc314fc00b3c9ad0a8d8ce765340",
+      "adapted_sha256": "9f7402178b6210eda9ee34b10cb7bb1e920169b41cbab8c08e295af1dfec64cb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteRectangleIntegrals.lean",
+      "original_sha256": "e72f5b014ebb3c29733d1a2f86a69d2019b909b5ec7ceadbc269f3e14cf96fe6",
+      "adapted_sha256": "02c2d36789fcb06da21192b2c257a0943b30b3f21ceca17e5666b54288419666",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteTableEntropy.lean",
+      "original_sha256": "e227c0ea3097e2d6867c729208872d67057224a10ab951d63c5eaf292c988c7a",
+      "adapted_sha256": "9c1884b81bb9d17800b4e0daa816a9f7d644847cbf861c91dcf336a2aa04d9df",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteWeightedCovariance.lean",
+      "original_sha256": "581200f26cdba1826733b0f0bc91949ce9365b16473cc34031822224cf27cae5",
+      "adapted_sha256": "d953f311d8819f21a936d51f223ffa5c92cb7b7f1b80f969a694a3a5138ac86d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FiniteWeightedExpectation.lean",
+      "original_sha256": "14fd1425c5a382805276cc2dc5d603e513393c9559ef39d4cec342053d30cfd6",
+      "adapted_sha256": "22fcebfb8b8577fdb75fb87b8d874aaac3f68c6890fbe026f86bbea6b66dab48",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FluidEntropy.lean",
+      "original_sha256": "ffe018f9251ec7fac2033592c3a214483abb789f322537bbb99425f661746a46",
+      "adapted_sha256": "be935ff96523ce13ad62383199d842f8db59986df53a181b290cc32b5b8bc87f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FluidRowUpper.lean",
+      "original_sha256": "d4caa77a66c9d3c475b47db94cab75d404c143647fa35689bfc96e16c2ba6fa5",
+      "adapted_sha256": "2346cfdcaad00c9e3e2a4aa5b37778c0c7112a633e110923914571d6ae514e9b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FluidStability.lean",
+      "original_sha256": "14fb03e30283f9c405f6936524035b701e3f60927358095350f86a756e925e25",
+      "adapted_sha256": "9038fdd81585fbcdfb5d98b2681a71e9cf3975db499a8ecf36e84d6a418d4c8b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FractionalLabelCost.lean",
+      "original_sha256": "944b1a8b94dc5ff1453e628ee416a09630558610781bceb761ebe49818cfdd21",
+      "adapted_sha256": "c471ba577f0d9be5d795c272c68ef3689becc11e341835bc1c648fbc3ff8ac6f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FractionalLabelRounding.lean",
+      "original_sha256": "3ad81786e794ee29a3575f180cbc1f0f6e118082875cf8cd0a6efa4ae74a0b59",
+      "adapted_sha256": "6d2130aaec7c6a8f79cb6083ba4b64d09f8c8e0640377327c601ba407015c3ce",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "FractionalTensorCuts.lean",
+      "original_sha256": "6b57da4b9a7f057a411202a12b01ff76e4803b496ccb1e869ca583a8cd6a38ed",
+      "adapted_sha256": "b2717034402fb3596cc9e4d4e22a1e2b85f4188418374d0492a2eefd65507afa",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/Approximation.lean",
+      "original_sha256": "5d731c1cf1504bbe2452020130f96950053d94a00e8d94363bbc31935332f276",
+      "adapted_sha256": "c1689117dfa37196a956d51d46f3f438feb1e95ddcd7d500325619a0a64fac6d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/Basic.lean",
+      "original_sha256": "e7b69a5d996d2766d623cbb2ef8465d8733a15ec7178ac7420f9d8b855b75a78",
+      "adapted_sha256": "5f73d7fcaf1e8de9e6785b643c519be01ee650dbaf74114cc4ed300298a4aa37",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/CutDistance.lean",
+      "original_sha256": "a8b1ae38d06835a6860ebde6902be908c9e5509cc8f44852b46a7a6a403d90a9",
+      "adapted_sha256": "95c7f2bd2d040db8853167ba7db6fb738fb76dee4f59b815d9b58f612f167279",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/CutNorm.lean",
+      "original_sha256": "da5373534a9a85751bfb53c2773006e27f6a31aacedf07690118c04e74b53e85",
+      "adapted_sha256": "006f8803d14f432639f363edd55c2ab75b9273a5a2d5189bf90c030eb1a3e13f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/HomDensity.lean",
+      "original_sha256": "1a15527a745283546271701ea233366cd4a47fd234e0c7eed0eaa8b508dd91e4",
+      "adapted_sha256": "4a36240e1ef235f90fc17a753b20f1d69d450b0dcd0038af03f35197926f75bd",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/MeasureIso.lean",
+      "original_sha256": "1c04d1298750ee6c5faeff8832e15aa60bd61eb9a7aa3949221be7d783755f41",
+      "adapted_sha256": "aee806be287538594eddb849e5119c86c7e30785fb9594c684132ba336384c13",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/Pullback.lean",
+      "original_sha256": "29302eee6bfb3b796e7aa1dca200b7bb310aba7193ce9e8875a355eb4b539379",
+      "adapted_sha256": "fb847d135715e8e2683c12fac3626c72e48a9fa35c3f5f108ec468a059a83387",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/Regularity.lean",
+      "original_sha256": "5859915acbb77f22a70e44b048d386f227b03d4d6813cffe7e5ddd88290aafb8",
+      "adapted_sha256": "d46da3c25dd1f6168a57d4b79eda7f02a230681f6d93481729cd37a2d18cde93",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "Graphon/Step.lean",
+      "original_sha256": "7dfb15db2724b2a631cc8650b9e726d4e150b8a1ca492774727faf23d4d6ca76",
+      "adapted_sha256": "d27ba833b57c61a04c1828c3ceb791dc2700b73d07f048f132e2274acca48767",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "GridCoordinateIndex.lean",
+      "original_sha256": "e81dc4125a3dbe87f10c34ff121ed400a81d913a1ffe3e7077ea657a4e83f412",
+      "adapted_sha256": "59baa2d00d2ac1bb9511379c1a2f4179886240a636e3726e79b9b59f06e583ac",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "GridDistributionApproximation.lean",
+      "original_sha256": "f474bfa8f8e0d038ab0aefe638fc1e90e38f52377f1e7d4d7628ea966c2d7fc4",
+      "adapted_sha256": "a11645ff25373b0b69dc96566a45d186293aa33be160870cf19ff4fa90f3fcd5",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "GridIntervalPermutation.lean",
+      "original_sha256": "f513b98043d552d787d264ff1a81c946931e8fc00e93960b0bea967d6a10ebec",
+      "adapted_sha256": "f2e4c4e9c04c13db5418285d70c855673d35e3d2a9bd4f4d15bc6f523828a5d8",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "GridPermutationPreserves.lean",
+      "original_sha256": "6c48be4802f7e5afdd4df53eb8d53d86435699639e4b3ae3115f671c1d420516",
+      "adapted_sha256": "d214bf1287b4f60079e93e34a6acf3ae480c4c1a771e852853a445a9e2edb677",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "GridProfilePermutation.lean",
+      "original_sha256": "84d31e33b7fb356c094bc8ff04c81a666e1da017917928815751b27047e4918f",
+      "adapted_sha256": "38a7d51dc30563a9e4b18f6dea0786acfbac1a5fee1c0f3492a8228707378d47",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "GridTensorMeasure.lean",
+      "original_sha256": "7ceb5dc08469f6e1b6c3b5ced1855e5551da4c475ca4ae312ad98d89fd1e358b",
+      "adapted_sha256": "9343368a121b655840a15af20a76b9320afe7095d049baf152e66c53af2d08cd",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HazardMonitor.lean",
+      "original_sha256": "9b14a4b799d9661c964446866a84f0dab4160b200de27707c4c6c84a1e7aefd9",
+      "adapted_sha256": "31c233d83b8649b8b8d1e8f551b6dd18f08da276e979f15621ab507283239557",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryAbsoluteBounds.lean",
+      "original_sha256": "e49c41fa28cf62d7ff5c37dedc80f6e6af339b8789bca22c08aaeb4c3ef6731a",
+      "adapted_sha256": "526d2cbd53123867eee83dccb2514594f9b3b92c24d05c984b90e7dbc6472aeb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryCardinality.lean",
+      "original_sha256": "6e0cba270cc1a82d56c3415d5249eb364ce31963cef21b73985def711d7bada2",
+      "adapted_sha256": "b358f91d9ad0b2f112f4e4ae09f741232738dd161ce63a947ce564c5ae4b5c92",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryEntropy.lean",
+      "original_sha256": "1657fd66e84b3d85cdaea9891cb64037ae3eae9f2320caaea61f0dbce193a141",
+      "adapted_sha256": "cf5b1965aa02626bf0778185dd8f40783f5ff6d372b93c47f5189578e3c748a4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryEntropyCount.lean",
+      "original_sha256": "73a06b24ebfab6df6cae99f5215394f762760777a7dfd7691a1d2b2a34a3fb4a",
+      "adapted_sha256": "466bff729c28e513c1a03c42c579cb83a9aed0da3f55fd4bd8bcc55f3b0f91cb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryEventBounds.lean",
+      "original_sha256": "edcd42ddad3749049aec4cad110126e6d2ccc3b4c7e06a60fe2ddadf235a2662",
+      "adapted_sha256": "4a3e846af65fe50a9bedf76296abb3852bd7e6ee0263296e038cad5a9d1902e3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryExpectationTools.lean",
+      "original_sha256": "a69123014e77d2a45fc55a19320ab6cea542428aa9c0830727d952a326ddd576",
+      "adapted_sha256": "d2b46b90899c2458005cfbbb6182b9be122f4a6b28fae8f663e47abc874e3aba",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryGoodExistence.lean",
+      "original_sha256": "e4b0490aa271e338068c0901b4ce8bb324e8c62febaf677a7e30e7b0fc0d2bdf",
+      "adapted_sha256": "12b139231ec533af92c4fe15b7631f6e4cea99263ddb8b4f9fb677a847cc1770",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryLatinArray.lean",
+      "original_sha256": "50fbd7ea1ddd7bb90de2e5d55ae1ed0b4ffd8b283d4f632ef9734901624ee4c1",
+      "adapted_sha256": "96a53c5f3906247b4d4b2b0b939bd8dd2b7a01f426b6e0c0ec09b7ccf430c580",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryLocality.lean",
+      "original_sha256": "a67987abaea5c30d44de60e094f5e313f336e15690cbf1e4e3521a59a7638ff7",
+      "adapted_sha256": "a74e3a963bc27eff347ca67c174f784eecd0579fffd4457c75e01782db527fa0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryMartingale.lean",
+      "original_sha256": "be3276f57f838798f43fe934f45457ef9505a65bec1e4916d609a6a95644dc33",
+      "adapted_sha256": "75a05576f4cb62e46c075b4141abd5ebab7b1165bd9ada7e1db0881edd3adcdb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryMonitorIdentity.lean",
+      "original_sha256": "1b7f53648af3ffb444e7afd93f1564d10c863df9720868dda936a87b16f0d1a1",
+      "adapted_sha256": "15d7bdd77d387d9b47bb262798805de679225a686073a42d94de98f433331b19",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryNoise.lean",
+      "original_sha256": "1cafc7163671b7f6d01df2defcf9b8515942c5754a1bee6b1e6aeec1155b45d2",
+      "adapted_sha256": "c8032104d14798df32dc41976e529e14c462c3304a5d17230bb31e3322ff7aba",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryPrefixLaw.lean",
+      "original_sha256": "201291c115fc134794a00fde33d3bd7b5e03d7af22612139f109e7f6502f3522",
+      "adapted_sha256": "dfbc8b1c2074395164d31415811323515c11a766ad979201ad0ba55088b5282e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryPrefixes.lean",
+      "original_sha256": "3fa440fd9f2ad46689e7a99920839f16043aa4ab04baaf6cce9b861426523109",
+      "adapted_sha256": "c194bbfe32763e3de27c5fe54338f814111cf8940cf4f1e858130461d6ce197e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryPropagation.lean",
+      "original_sha256": "30c02e2fc2a75bb26d949bcbf51069507d974d28420540f0a7182f96a6a77349",
+      "adapted_sha256": "034e6bf9ea5005778282d018d16fd93ee4a590a233ae73cc06b35df17fe1aaa0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryTails.lean",
+      "original_sha256": "569a8239fac38407a302fa6b59346fed2a3b871c58737aa5d4d88b4eff4bfbf7",
+      "adapted_sha256": "96230bf478a87841594be0ca3e6251fd251bf5c7023a84bebaf665b91ffbae0b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "HistoryTruncation.lean",
+      "original_sha256": "71ebb91c0dff33150e9556ab6174174ffc17aeccaf8647285f40feae0fe07a47",
+      "adapted_sha256": "a23973d52a2a24bb3eafb2179b043288412a5443058496769a4c66b33ce5a97f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "KLFiniteGeneratingObservations.lean",
+      "original_sha256": "2b158f07ee51c35b7a25a8412484d967480322e0f4073ddf4e0a128f7319b600",
+      "adapted_sha256": "30a9834ab4063373d170def00403d2fccbbbd20c6dd7d3674538ac41aa534fff",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "KLGeneratingObservations.lean",
+      "original_sha256": "5c41dd985539fe4c745390455b1d8d9b6e4b7da053a98587a7b5da557293027f",
+      "adapted_sha256": "84282953e0756708d40f9ee0ede173a43703f520e5cc2d06f9368c7b15d60e82",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "KernelCutEstimates.lean",
+      "original_sha256": "0ba21bb07e6dfaadf35e2c92ec562d773d3ddc6d0bf98e505843ea52718c67d7",
+      "adapted_sha256": "abdab9828cd2afed7d1d83a812c7fb27179831ee6b401deeaa59ca87a6bc7706",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "KernelGraphAEBounds.lean",
+      "original_sha256": "cd4c0cac1192f0bd6952e70587e6b71850254f8141bb375d3deab16c4115fafe",
+      "adapted_sha256": "f4c09713aedc4059aeec9c48e32768cd73902ebf74cf545522ed018d9d5ae785",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LabelAveraging.lean",
+      "original_sha256": "dea8fa8758e2f35399c637921d72d35484ff3d5f587067492e759c52f3f518bb",
+      "adapted_sha256": "d3d033146462657af678958c7ab9348b55572dbd34f49e7537b2185b64ac78b4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LabelClassification.lean",
+      "original_sha256": "f88ed422c6f935064cd15c936fe4518443f6518edb16b2549f2eb84111b3fbf9",
+      "adapted_sha256": "e3e67e4cee8803c79aaef16462e67c53ef64fe839d1657924163f4ffb47c0291",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinArrayProfileCuts.lean",
+      "original_sha256": "6d409d0f110ceabb391879c68e5d42fd27ad476d1175e25c212263a8dc12a314",
+      "adapted_sha256": "a48b8cb4ada6cda77ff7df641663afa4c0d7ec5cc76ce41f1e3b74e5e3ab95de",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinAvailability.lean",
+      "original_sha256": "7cf4a9cb0ef74d24dba0a097dee99c1ad68c7deab968a3e5b67a28b26122987e",
+      "adapted_sha256": "07c9f4b5d571e88b55e4daa2793b917e64693647ee5cabe6247d2c5e7cb1038b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockCounting.lean",
+      "original_sha256": "1d95c7f9560d8d8b1be94d48517941323c2b24c40f9c3a9747bd7fe5a386b794",
+      "adapted_sha256": "6a6209ccaf4fca52854d8f017daf04ebbb3dbf70e8755ca23fbcabc5d9fb5340",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockData.lean",
+      "original_sha256": "4d00c0f4a1375c634f5f030ac6294f91482fca6a1124c58d2fe68c404395ba49",
+      "adapted_sha256": "7be9eb9758a6c33e29f512aa56cf99bf6192c4ddc0037a1921376e9d3ec81fcf",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockEntropy.lean",
+      "original_sha256": "2661c924d96ae431eee045f4cf13186dfdb2682863866fd9974536ec8b8e8980",
+      "adapted_sha256": "8aba023fc31b09a3fff71bf623f15e5a1b4489feaf06a14f084bb8c11f47819a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockGeometry.lean",
+      "original_sha256": "c2794b13912b227aaf5f91157e45934b30f1cf1afc15230a8b9c6ab50fda8577",
+      "adapted_sha256": "98e1b9e8229ed2bbc92315687e1819c070cb13302a580811f6d8d7b066c2cfad",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockLocalUpper.lean",
+      "original_sha256": "994e5c795e72d4e1fb639fa65ef53e9cbc054452f0c105110e6e1ad83893663d",
+      "adapted_sha256": "3229e381ca4713c91de5543cd29c220ea106b5af1a46d72d5a44636094b94c9e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockMass.lean",
+      "original_sha256": "a56420ef48d535af1e65fc3cc4ab91e66bcb8973dfca9e5edb30e6906f0f5142",
+      "adapted_sha256": "0a18184984af99825bb2cd81d942ddb3d865cf08e5a338a46a6cd8fa427927a7",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockObservables.lean",
+      "original_sha256": "ed8b9d76ddb2189329aaf614a39cf95a1121297832ce257394cfc4773b42d6cb",
+      "adapted_sha256": "63f1098da6fa537b3967c981f777f817a71d82016e5102980b099a8ffe510356",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockWindows.lean",
+      "original_sha256": "5a10690bd857fa05c49230351cbd0ac703b5b1096e37f25bdbbc5ce44d10a5eb",
+      "adapted_sha256": "20c369ec6acdda33c13f146f475b6c90616831bf7ab61e672decb2b96f984a5e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinBlockingCells.lean",
+      "original_sha256": "d7713505cb97b5047cdc57afba6c5c8dfbebdc1b4e00ea16777b6521235a2e50",
+      "adapted_sha256": "69becb837d5df951ae4644a690f244dff34fa510f62064db720b406c4b9b884d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinCappedEntropy.lean",
+      "original_sha256": "8bc952d5c1e9ac6da5804c0af0d36546466be7c3e332333735988f606fc4e01c",
+      "adapted_sha256": "9d688141d45c04b32612f661977dba516167d367dc6b9557023b28953efa84f9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinConditionalLabels.lean",
+      "original_sha256": "3009f758f0eed0ce6657cdb36c5ef256af8e766a47689f7eca2aa7045f12a981",
+      "adapted_sha256": "6fb85b585469ccf752ff0c4f2174b139557c79a49a1862e48899a1a797ad45ec",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinDensityLowerBound.lean",
+      "original_sha256": "2fc818b34b1043db74ad45bc5509409e7186c03599b64ad767db7afec75c6dc2",
+      "adapted_sha256": "2c00f7fa2fb29e6c1237831a4b413b8a8d5d848bd52e9631807e8fb8dd2d2332",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinFamilyMarginals.lean",
+      "original_sha256": "a6a945953e3e2347f95169e34c1dbc180b106225fcb3bd3cfd4df0b0c938afe0",
+      "adapted_sha256": "549e7f3e53e08e45e1bae0c8ae5262d9decfd4146af9f62e17852d45a1ddb43f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinFractionalRounding.lean",
+      "original_sha256": "23c3c5bbe336b0a4345f331634d788e54c07e7c98ba43698d2e0642e6bf4cfa0",
+      "adapted_sha256": "c282365506151a871917e8e9d3b72df88f6bf32c87571d3a5f302073a57e2b53",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinGridBallLowerBound.lean",
+      "original_sha256": "e595993e38e44b2da6580c43d2239d8910c69469fe43d13bd2214ed33b7c8661",
+      "adapted_sha256": "2a2cb53f4c98ec6a5804cf8e51bbbd9dfd82ff91295c3a725dce134f3d195d36",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinIntervalBoundary.lean",
+      "original_sha256": "fbacbe139c6169f9f877db230ba50cd52bb2009a0c8a2b4efb11593a4ea9ebef",
+      "adapted_sha256": "1bf040f126c7ace8c70c7450eb026639e1947fc88b01e23598ee918bb861142a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinLabelCap.lean",
+      "original_sha256": "7014f513fab2c89927b60d2b188cc0a73b2e9308779f1f115d20bc0348db0dbd",
+      "adapted_sha256": "8e5179d522d22e44b8ff7d80f6a2deb26b39c7eda2a73f4a54a15a7e69daf44b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinMarginalRevealing.lean",
+      "original_sha256": "d04bc35681a3d3107b0f618107172d1be6397f5e93b37ccc7c9c89a36cdf5a9b",
+      "adapted_sha256": "e2cdef5a442a0fb26a3f9d0b56b9678724f100293c0e4bd205659b99e8cdaea6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinMarginalStatistics.lean",
+      "original_sha256": "10d1f3f14be127d426f50414e25b184a4026fc73704ea2290ff3b84fab7c939d",
+      "adapted_sha256": "afa3c17122a35ac807f1dedfd75bff061b04cf42bc27bc452ecf00f0b43cc284",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinOrderPatterns.lean",
+      "original_sha256": "877c9f470e2e7d6d63110a109e06f17542e0a60a8b85be936c6f284140f0ea29",
+      "adapted_sha256": "f203149176283ad454b727e86bcc1def380277aa1df52007c385b4dafa5ce47c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinRemainingLog.lean",
+      "original_sha256": "795f9561121a2dd1c7cc9d2952a6fb4a43b3cb911c7b2bcbb974e3341b11ef40",
+      "adapted_sha256": "91c73e5b89af23bf1c7cbe28ebfb9ab90c40b5a818a55943567989a5d7249fb9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinRevealAvailability.lean",
+      "original_sha256": "f5264eda08fe78d4fdcd1621dc4fc6fb33c6a832050284e4b9f108ac2c1d3ae9",
+      "adapted_sha256": "c877d469a671a94434f8a15be665b583cbe4ae501959ba92db75bc2156e2ea50",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinRowPolicy.lean",
+      "original_sha256": "75a88d81d372d396c8638c5b75035522daefca345fbbf651c1ccbd60a99cf943",
+      "adapted_sha256": "cc6e6b733d126658700d66d643627b758984ee7571b51d2f0220e5fbc8ec5dde",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinSquareNormalization.lean",
+      "original_sha256": "a3ce05272f43a4f5f9a4df5a0fccb80b265d053d3ec9083e19781f7323b0d2aa",
+      "adapted_sha256": "8970504eee5db0cb0510214ea1e280f15cd680b75a4235d79143042fb8e1e55a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinStoppedProcess.lean",
+      "original_sha256": "6e218f23492d5e02cdf8a08605f150c962c0f3317f9e6525d04b5070c982f3f3",
+      "adapted_sha256": "bfeade4947f023da8155fa182114f67385da2c67405ec93de8ed41b8f0d562fc",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinSymbolIntervalBlocks.lean",
+      "original_sha256": "6128c5f62595f3472afc47d40f9e20d6612eed3efd861a3330402c9806b906e4",
+      "adapted_sha256": "22829dffec8a2f963c714dca8be83f70042fb8b2987a826cfc9855fb8067e92e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinSymbolPermutations.lean",
+      "original_sha256": "a24f5564dec7a4673bb05ce0a30199b44147426c644d89ef2a02e03068564530",
+      "adapted_sha256": "a8a8295d37dbab633c23870772d3602cebc580cc327dea5f3c470e7485d5f250",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinTensorLowerBound.lean",
+      "original_sha256": "382313326a202f120a0a9f5b1d1447ce34d39ac363be0516518ca6fef094cdaf",
+      "adapted_sha256": "0c9fc60d2c366c4da658ba05d9ea0f1804e79a00d1fb718f54a57ca02074d7d3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinWeightedReveal.lean",
+      "original_sha256": "1cd4b519ba5dccbee5036febcb607ae221929519d51cc094b3f3c55852b02778",
+      "adapted_sha256": "26bd29837769a39c5eedf5b64a4e524fd2b2a5df11de1e52c5d72c63030b2ce6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBallRounding.lean",
+      "original_sha256": "0b5f241cc71d58b5fe856beef30e0412bc3733810cd002eaf1f238d63608c1cb",
+      "adapted_sha256": "eaa83ebc8be46905ae9ef84fe5578e2232d544e347db418426a4ce0c3fe5340d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBlockVolumes.lean",
+      "original_sha256": "823827955603ae86c9bbfb3907df3a115985fde5b31c434a9572b124bb603694",
+      "adapted_sha256": "67b78a7f8a43f278f6b06c458b99f81c27922275214501cf458bb7fc9c40ce44",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/BipartiteKernel.lean",
+      "original_sha256": "6501ac89698f62528e0fe2c2e7b840ea409a8d01aa42a772a44b47254565d13a",
+      "adapted_sha256": "cf9f1b0251e2d4304319424b3493abd5a6ddac138dadaf248894d3babf681abe",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/BlockIntegrals.lean",
+      "original_sha256": "b4e823ad255ab18b7ead6c7f03cce3f3c1e8056c25556f31f8ff1a0f77437364",
+      "adapted_sha256": "923682c450151537f233013dfe6f8730ef2af5ed436d808c1961ab1e77a92139",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/CheckC5Complete.lean",
+      "original_sha256": "3b13087f143b79c1c6cfafd283a0d0ac78290aac5dc557bb0440c7519dab5d82",
+      "adapted_sha256": "fa9d89d1e3404ac784ba5e28645b12da883ad6dbfd53c0a4f546b3ae8195d5c3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/CheckC6Complete.lean",
+      "original_sha256": "f23102d2d5d0c19e354c8e2aa9a5e8c3f8b19edadc8c40d7b7d568c0b015da8c",
+      "adapted_sha256": "0b81e46badcfc866d5ad292213a6006690429412a52c4b1d5fdc846a7fb7b4e8",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/CheckCutCompletion.lean",
+      "original_sha256": "fd885d76ea48527601674342f60a2bd39c0fe79b0444cd775a93a026386cd897",
+      "adapted_sha256": "1faea065491f98db81bd1422a1844e908793f1d1bde8d763d2310034c3d2a4ab",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/CommonCellAlignment.lean",
+      "original_sha256": "be07d56ac07fd1bb2351b360ce4abc6a113996b9c870b5b6a4a4a47375af062a",
+      "adapted_sha256": "d8d52c25033d357e42eb5dcaf8ca7d2810d3f7128ad41b0e30d76cb80067c80f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/CommonDirectedPartition.lean",
+      "original_sha256": "20ec71c120c0022d61211e6709cb379bec0c4bfd024bd48e538bba84ae2bf42b",
+      "adapted_sha256": "a6faa8c50b09365cefdf3c4c99216ec509a57894a2412b3e6ad6abdfa515298b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/CommonKernelNets.lean",
+      "original_sha256": "8b4b585463cddafb7c8f536f4339cd26ff721cc2d804f42fd3f6c4d2e9878af4",
+      "adapted_sha256": "ccf3cc8d395b6d2eb22a21a2b416bc7739f1ad2022d74bf60dfd26815286f06e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/Contraction.lean",
+      "original_sha256": "96aa0a43c514f8e119763918a4077c3f3ed670e1c2630e7d6043ca7ece3e21ea",
+      "adapted_sha256": "b4969a41244c724eeeabceb27b09d53711118190941eed33da14c03cebe75c14",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/DirectedRegularity.lean",
+      "original_sha256": "83cedca7a6d66920ecec944d559cc204f3680c92e28c77389362bd7358168167",
+      "adapted_sha256": "b7f782be2944ebb6d6ab1bc28f217d830e61a3c1dcdb8573e5ab3c3b9d6dc0f0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/FiniteTestPartition.lean",
+      "original_sha256": "05496fd3839dfb3fcfccdb573bbe0ad50c5d521154ea08d2566f5eb0e5781b34",
+      "adapted_sha256": "ba8c09a68065e9f66e77084e5f63710885ced7751d0c4355afd67003b001fb7f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/LaplaceBasics.lean",
+      "original_sha256": "53f75311c5613ed2b53dca76097b911a4258114051c1cc2d2b99f2441b63c4ae",
+      "adapted_sha256": "ef579b999a130fe99c4d0298a4ac5335fba782fba8caf336a9175416509c6577",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/LaplaceBounds.lean",
+      "original_sha256": "4fdda06932cb5f7231788e846a340669b9dcc95f8684d22d784e5f3a7003b30d",
+      "adapted_sha256": "df3f9638ffbdbdeb441dd5dbcfd64d780eb3eb6d7cc943d99d2c5fdbd476e7a3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/LaplacePrinciple.lean",
+      "original_sha256": "8394d2cb182554f34fef168f3820d9523c1130e21d68800af69027908d062076",
+      "adapted_sha256": "dbf20e44a2e746a8484906119b9a0ec0ea1041d00ebf664540f7becf244c6720",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/LatinonCompactness.lean",
+      "original_sha256": "604f0cfef737cde366df680212797ca796d3627fe532d5065fcc159ccc581e4c",
+      "adapted_sha256": "649cdbffb36e2fcd3894ce72c401688bdf26995cb84c22104d713d980bf821d9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/LatinonGlobalDeviations.lean",
+      "original_sha256": "e64b185d14f79743a6d1e004ca8837fe3b76a2c3071f6d285d43626d56d394e2",
+      "adapted_sha256": "4c3bc0562fef23283b5f727f3a00c2cd9d8296b5b474103e74759a587e6ae33a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/LocalObservableEntropy.lean",
+      "original_sha256": "c0544d040fa8e79de4c0979ee9623618785f2fc82106c9ec10c2fc8d8cd50262",
+      "adapted_sha256": "7fec32e6dd26323693092d113c6fa3f91190b9c6536ac89c39c92df787ecf40e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/ObservableCounting.lean",
+      "original_sha256": "7fac43de331f755ec98d0df12a4890a2660838f42143a025566695769042c168",
+      "adapted_sha256": "f127643774cefd3026a33c473c2f66de7ef1c9f8d00aa034537259c91857abf3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/Regularity.lean",
+      "original_sha256": "e6bc1c7181cdcdc519b24dae2a4534414ce7318b97d537a9101adcc05d0b453d",
+      "adapted_sha256": "3a4ff83c93cb819e085e3811d43b8faf9b27138a7ce85e0b98d5850c3f0ec4e6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/StepCoefficientQuantization.lean",
+      "original_sha256": "cb0d842a70b34d4cc713f5e77daa2ca73b51da197610ac52c44b4db6c74ef3ca",
+      "adapted_sha256": "df922c342dab24f1abd354fb2235b4989a35765c605850c1ae8eead9971f11b8",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonBridge/StepFamilyEquipartition.lean",
+      "original_sha256": "fff278916750c8641912fd84593438cb0352b8a48509e9f39823626fc5b5eb7c",
+      "adapted_sha256": "2dbc58c7dd3dda8942e1349aa1410200f6b898c914eccb353c3eebe6d856205f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonC7Closure.lean",
+      "original_sha256": "6829226125c62f46295e762b94b04301f81a5660dbfbb51c3299066992cabbd2",
+      "adapted_sha256": "5263ee6b157525f03f5a9faaf6b4f31016b9cbc4cad404590275ab0c783f3327",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonConditionalSymbols.lean",
+      "original_sha256": "d1537e26a09c2f2dbd7ad9e0b70cb6e52a00c383de7c91dc731416e9ebb06529",
+      "adapted_sha256": "454e0760ad74c7f8e2164c8236b234ad050e7bce2fbc7d8f45e04118f24d9743",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonCutDistance.lean",
+      "original_sha256": "37a1816ceb691f0937d703590ea54475dfa16831c6dd9ccba97af7a838feb8a6",
+      "adapted_sha256": "311a54775d72fb3211542525447f67116aac9014d7c6652272a7eb9c2aa721bb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonCutInvariance.lean",
+      "original_sha256": "975c637c96634125b8901bdb9e706ec4142b471e136c12c2400e9a5bc72e257a",
+      "adapted_sha256": "f306ff1d7aac1acbfe268b75f4f2f5ba6cb5c3a0197b9c6f4c0f3f5f3cc5747c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonCutNorms.lean",
+      "original_sha256": "30cac3519628f0c503251ad92600e1ea99cbda34667de35cdbec7df33b5ee380",
+      "adapted_sha256": "ca46a0c5534f655a5e6657df9e3d77d598a3208ecd61d0735a74c3b3b56939aa",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonDyadicConsequences.lean",
+      "original_sha256": "df5bd5a6924494eb5828c58d6782793388c32ef399ee2311d91c9f3b8ff5f71e",
+      "adapted_sha256": "d5e58197811ffb0c3ca1b569feaea993853be51d97db0f80b67b988f688b789e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonDyadicGridKL.lean",
+      "original_sha256": "cd390167af4fde0ba0ad811113dd449862baca5485df64a3c4cbc635e1fa3d4e",
+      "adapted_sha256": "c2bfbcd616fe21846723bae1c165062b8d416961e676f99934f1a83e6584cc5e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonFormalization.lean",
+      "original_sha256": "0ac6d7a59aecfbea06abad45d3b254aea60f9e1160269b1ade3e47201cab1472",
+      "adapted_sha256": "8f4956662b46a94cc6ef03c2ace6cca2d420331fb060e2a017ad25cca86f8e4b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonFullDyadicKL.lean",
+      "original_sha256": "25f0f4fb8bba112a38797664b6632cf9de9b046bb9541174cce70541e8533883",
+      "adapted_sha256": "e98986db72e6773238cffeb587758c5141267dfdf82206abb31ecfb89279d3c6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonGridDensityIntegrals.lean",
+      "original_sha256": "77cda3752405fc0410291c89d1684f19b113d82d00d37adb2bb693187230b99e",
+      "adapted_sha256": "2c53a1964c1c2675d23f691a526172f1883eb5980630d29e0654413aea6bb91b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonGridKL.lean",
+      "original_sha256": "d454dc7cec6a1214083bdd18d17f23415bfcfb5fa2f7116a5074fd8ed03c1500",
+      "adapted_sha256": "17f13ebae2d475b044969183ac3a52b63e27f582f32add7183a62fd1145edd87",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonGridProfile.lean",
+      "original_sha256": "12e8a3aea0bc6dc97fee36b09efc7343f5e2aa2f42990fe9e46875ff7ffc810f",
+      "adapted_sha256": "2b91719c7c6a22a005b82779197e4dd2277a7c8cff2d3bc9334cb2b337cdb6e9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonGridRateLocal.lean",
+      "original_sha256": "566b7697be3c870ae5b1fce3883ff399397790d4230cfe68b2ff3a221b93f775",
+      "adapted_sha256": "19ad46a8f40554a90b250e8e6957b4b882fa44486d0ee62d085fa52e2863bfc0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonKernelFamily.lean",
+      "original_sha256": "15fa2deef839fadaa15580c133de77465aa048466bc63514ffdc302b19926e18",
+      "adapted_sha256": "6bca4be874163ead6e8742ed0bcf178a0f6135acb6980b0c17b0704d4790dcfe",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonMeasureAlignment.lean",
+      "original_sha256": "d52e83c734c57a7018e38d390f244a880b4311490c0bd4f9c6f32d260e291daa",
+      "adapted_sha256": "d14718c731fc10fa0fa33fe8b94c226b770d200c4eb77db8b1528db70cf08d12",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonMeasureSpace.lean",
+      "original_sha256": "8e92ccd9f202624de20e3f00027c022c90174279b52258db28ed0d43153daea1",
+      "adapted_sha256": "dce0346418c183931eacb4f031b74514e1ef61afbe955df6ce1a3a28e6f66b70",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonOrderPermutation.lean",
+      "original_sha256": "ac5b4648033d26c19ebe4163929473224dd431a666dcf35149fb075ea8d97232",
+      "adapted_sha256": "bb0f37ebc2656157cb5c416fbc29daea4b115dd27f9802b835289e0382ed9c6c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonPartitionLocalUpper.lean",
+      "original_sha256": "8cbc3eb634fc99259ddcd5b892c41ecc8b7041663912ca6862e7d6aa990f9d0c",
+      "adapted_sha256": "dd10865e24c2e74e820f0bcbbaece294ac67f3407df824bba370051fd1123907",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonPatternConjecture.lean",
+      "original_sha256": "8dc684dfd131d14aeeab2ba036cf553763e74b79de78123b42d6bf6a3418afad",
+      "adapted_sha256": "5809c2171562cb646fe93312b1b9f4563bcb2b6129e107d4804cced64d8c45c1",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonPatternNormalization.lean",
+      "original_sha256": "fed6274452e525a4cae6f0a000ad628e4f518c153e2e044ea27fcf2933a73864",
+      "adapted_sha256": "14a3cea8c6c3fab308acf74136e518b6aea25d4548589f57c01ba30125de72ea",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonPatternSampling.lean",
+      "original_sha256": "a304ec7a80c9f65ff71f505ccbc2efc3da91f76dc18c1bfaee9b8c933b1647ac",
+      "adapted_sha256": "f62bf4293baf66915b271983475350fd90a28e8a0ad5247fce9ee7b12bb223c0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonPseudometric.lean",
+      "original_sha256": "d7d28b01cc7422807b78826668605f3632fe96ac634d653aba2f5ab7a613d738",
+      "adapted_sha256": "a740f58c56ca983955b51539fed235cf897baea209ff1876a445d3ed9efba3a0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonRawCutCompleteness.lean",
+      "original_sha256": "5207776b6027f0b31a5c7b7a479105a4677f16229b2a5fd655e3c367fd40b02c",
+      "adapted_sha256": "967982bd7c6762e8274d9904bc93ce037a43daac88021e982ae2ef84cab71d58",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonRegularization.lean",
+      "original_sha256": "2b55611e6bf6efb69b2937e5224e78617392824fce6a0306860f1897310e6313",
+      "adapted_sha256": "2281bdc905aa4d0ac439f505ba7c5e9229a26c85bef456c466ff80ee54d06c9e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonRelabel.lean",
+      "original_sha256": "9deea51ca5cabdb98608b9b56858f7057b0ef10a853fa052f07033a2026dfec7",
+      "adapted_sha256": "cf6e301cd8578343ceadde06549a483821e72ed7e4c6027c5c2e073944ebe1e1",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonRelativeEntropy.lean",
+      "original_sha256": "bff8bd1fa1b295ed64277a008c2fe0b2b116076d002b3b2d6846e9216d5b3039",
+      "adapted_sha256": "c322f481a02becdb5177a461cbef1af5977c350225867b1a4d8135cf2a04cbfb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonSeriesApplications.lean",
+      "original_sha256": "5d8187398b0bbd03cd31a0cba62ff2a15ea03b7365187e1c931c2ccbf0e7b4ce",
+      "adapted_sha256": "45f319423e3699c032e00ca9fec69147dc7b409a8d5695171b7ba6e354218607",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonStandardPatternDensity.lean",
+      "original_sha256": "e6ca4d8e08aa559924b6ed045b889efbfb5cd18ec430c86decfd3285c45d577f",
+      "adapted_sha256": "ed72032674bc3c58f48f3aeb617003c0a086f3c90b9fbce4a1f3f27ef91d2fcc",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonStandardPatternEntropy.lean",
+      "original_sha256": "cbbf324e681b3de7719967e3dc18017158af1ad3414458cbf5f180d5dff47198",
+      "adapted_sha256": "0f95310efa623a70e90d718626045c88568cfc46dcc64e9555377ede3c05f15b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonSymbolCompression.lean",
+      "original_sha256": "812ae5cb72ce09bcbbc01e6d5f698bf139fa1177eaa02b9ca960612f3738a183",
+      "adapted_sha256": "2e7a3f5814fd611208289e5889ec24d603ba867bc61b98e827ea49fffaeda8af",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonSymbolGridControl.lean",
+      "original_sha256": "0f4d35fc8aa4598faab02a4b8a42ffebfde4cc7b0647983dd3d8a6652f5c82e5",
+      "adapted_sha256": "d39256afdac73a679ae7650692817dd1669cb0eafa2c85b32903930eb4b498a4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonSymbolKernelCompression.lean",
+      "original_sha256": "bd31eec63efe7f47bc4d6e00546c0d87ed5c4c7ef28d89b540ce2b9da97c3989",
+      "adapted_sha256": "fd0fdb471e837fc96a64388319ba400713ad3fc4d30594fa97322dc525eb36f4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonSynchronousAction.lean",
+      "original_sha256": "78ed3e1a97a014bfa49e3e6027f3c09835d30ddc7bdca0ec579f4104829284af",
+      "adapted_sha256": "77164df4a6a8e367968e73913f595a6d6c5e56c7da7d74eaccd472f5f51f8eba",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonSynchronousCompleteness.lean",
+      "original_sha256": "c3bba32b62e336c608ba61af1002b329d419e8b661a62064236d912f402aede9",
+      "adapted_sha256": "f9b3c5640027f51e023686c9fed559323b6c9dc33fea11b8675acd388fa3da07",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonSynchronousDistance.lean",
+      "original_sha256": "619f94a586a69046ae079f7a0ef69b4745ff004b48482de8fb698ad1b0f21fbc",
+      "adapted_sha256": "d556130b6dcaa57b4166d94f11ceb79e1edbd934c2f975c20b79248f6354aacb",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonTensorTests.lean",
+      "original_sha256": "7daf9bfe3038353a63763d4347ddf42d4fe339b8cf41f5a3c2c62bcf4567a17f",
+      "adapted_sha256": "0027b686c3d7f07c8e72bbcc33a4562a504bd771e91dd99c0067d615d565a784",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonWeakBoxLimits.lean",
+      "original_sha256": "809d5fe167a152aa562b4b602eb931ba4cc3735dd2c86fe8e10badc0f612c887",
+      "adapted_sha256": "c9394913bcc72c4debf8c372407f199be01614885beba3fbb9f02391c81541e3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonWeakMarginalCompactness.lean",
+      "original_sha256": "06839cb3a6e7541a36519d4f0e1664dcd94bb0c0b8c8191170f819621a4a087c",
+      "adapted_sha256": "e35833658458538df146ec425584c5cf2a63b89424fec794759bc8390b9f73c0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LatinonWeakReconstruction.lean",
+      "original_sha256": "1183a05195eb606aae0f987193eb39192d390bd95475884f3789470c37961b9c",
+      "adapted_sha256": "6e406f7927970fb43e776e9af658718a462a12582c9abb48caa4de1d1c7a963f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "LebesgueGridPartition.lean",
+      "original_sha256": "90500792be31016b02fb6d6fa85e5c55bf678ecf0175b1ec7abf3d0f5791ea91",
+      "adapted_sha256": "986da8f285a5697506f25af6069ab4c3d5c2ff1188f292cd177a5926cf42aa79",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "MainRangeParameters.lean",
+      "original_sha256": "79c72efec48a06c1203c8e074a9d0e70d04681416aa3a2f7148d4a5a5db29395",
+      "adapted_sha256": "097ee48314672c8584f378510d57e73fe56b1830a648a9adf3b0cdcd4b682fce",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "MainRowEntropy.lean",
+      "original_sha256": "f5c063f0dba6f300c977124c2138367f0ff726506153b60f1fd423a38fddd11c",
+      "adapted_sha256": "2e5b5731e41e84a839d401dc2a254ca08053606e6436e3947f448dc45c35a46e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "MeasurableAlignmentWeights.lean",
+      "original_sha256": "24588f80ee3077903b29bd07e74611a522fb9784def5e331d6ddc2c47437c431",
+      "adapted_sha256": "d9e72ebeb027d31eac02aaa5692d443ce683406364ed597cea0a94076903a435",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "MeasurableIntervalRounding.lean",
+      "original_sha256": "aa9a5d010bb78da515f3173c9d342bc2374789a397e9691549da4da46026cb22",
+      "adapted_sha256": "c777cc486b9ed146b2e2dec1ca97e9e5e01c8500542018d4fea476d5f6affc53",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "MonitorIdentity.lean",
+      "original_sha256": "2685fdc16767d19538f26e483c1368b7c2a3c5362a040908f26405039fadf4f2",
+      "adapted_sha256": "2f5998f2431946b01a2690751f2075437da8763b6d603da59aaf2976b29ece41",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderAssignmentCost.lean",
+      "original_sha256": "240a6476673a4be2ec97e448c843ca1dff9df6463711ed271f24519517304746",
+      "adapted_sha256": "50957b15dc7a061c182ad1e5c417859d6924f4aae7f0b04128bd99d253d51e6c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderCutL1Control.lean",
+      "original_sha256": "beeea57625d1187165ba4ded729fa6fa8272bdf28ffc50631314aa59aaf5af4e",
+      "adapted_sha256": "8ed12f04a804fa6116b761d77e3c88e6c98dbae3cacf34518831b08d48bc8732",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderGridTransport.lean",
+      "original_sha256": "60f7034238ca789773212deda1d1e35f92d7ba8662d21070073cbae0b3822a51",
+      "adapted_sha256": "9bb04a744f7c6761d82e1c68ecd618b4240088e6f48f1bd338ef643ca728c0ab",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderMapCompleteness.lean",
+      "original_sha256": "4f6b42024018ab65b484ab7dc1bc69b7daee57bf284127b6e2f4f016fc15a9a5",
+      "adapted_sha256": "717abb68af1ae2353ed189d98d8890154296a4b1c44955ab7fc7c2c2fa3f635c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderMapLimits.lean",
+      "original_sha256": "d7404f1d1c22768c92b7f594f6fc55998e42e1343a6a1285995e797882a48f71",
+      "adapted_sha256": "e3ee64106b339b2e24cab961142ce55f8e05082ac1881e463f2b81b0d42809ee",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderPermutationL1.lean",
+      "original_sha256": "35fa7bc3d7d8a0abf0495a151a525f0ab7a0cd55917b3630e475cbc026311631",
+      "adapted_sha256": "ca7e549274e92d930c3ad894d45050ed6efbcbb0fd703f0743c9079698a579ad",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderTransportIntegrals.lean",
+      "original_sha256": "232a594a9985f4a6468e7c37df7baeac90e422a8c4bb3645de10d5043b364226",
+      "adapted_sha256": "a3cfc0ed6c71e5da37fba0d2499cc278a8e23ed75cd0eb0477ef371971c33310",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "OrderedTupleNormalization.lean",
+      "original_sha256": "90584ec250c0f5f06b7504a2b7986b70ebc1c1c956e548f344fb5ac156c59ae8",
+      "adapted_sha256": "ba6eea3e440ef9a3bb6fdfbc45e230808be08671d9b4a2a22fdc36e46c4985d1",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentAsymptotics.lean",
+      "original_sha256": "ee05f2633c38d1bc3e198fefc0eb598dc299ddbca070d58250368c6039fb2def",
+      "adapted_sha256": "0ffa02e78f4fe67c620f79391bc6ae9c2da8a5f801f27c38712058a718999164",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentCap.lean",
+      "original_sha256": "7269fee5a57ebef750a960d69bc9729062e697bf822a0a31bb7af4acdb5658c3",
+      "adapted_sha256": "5a7c003b3334a5122921c50acc2ab29751bb285ba2cc1f3a761f40c439fbb0d0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentCapScalar.lean",
+      "original_sha256": "49b6b3f8461247edbe18254498ea76033a3fef4375d0d192abf1cbda7fa1c97f",
+      "adapted_sha256": "480a50c1de55f34f676a9d0a99c8ff2e19909da8f705c2338c0ee4d5d03abc7c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentCoordinateValues.lean",
+      "original_sha256": "0e43b2e44593851f2590d8c28ec150cc84d8c0c7d20f8ee870d78b21f6df3367",
+      "adapted_sha256": "75ba312558f409fcc46f0fdb0ba6d4cd4af7ba79a35e7c04d0251f0a886f1a79",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentReveal.lean",
+      "original_sha256": "6c67bb5f88f52aef8ccc57a9ca2b6223dd0b2d05ac64174407e1ba9e20936d4c",
+      "adapted_sha256": "18ed999912647ced4ffd90a9a0e59ea7eab7e43a5a3291709fada1c5cd82595c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentalConcentration.lean",
+      "original_sha256": "de56347ada1e39c90f3bbcad8c7b38b994e9d3035d9c383909f20c1f18796f85",
+      "adapted_sha256": "ebf34ed4d6a4dfb97f8f7b8788553344cc221bf729434bef2db734ef4300bb27",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentalEntropy.lean",
+      "original_sha256": "8c3debdb2e27a7358e554c3522a15139329ebc7b90e37b73a3a3cdefce576bbb",
+      "adapted_sha256": "08d1570eceb61f95a2d472d2164dbe4f354d65bd9eceafe776dec9d17d444b20",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentalLaw.lean",
+      "original_sha256": "ddcdb6a7ba2964049569dae2f651f6953cc03361e1fdc68254ff7b1d9d7f11c5",
+      "adapted_sha256": "93481c6512e53e5d65119cbbbda3b4accb5c2be94fd3c2592cd3ab87f3441726",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentalMarginals.lean",
+      "original_sha256": "51083d4b14bd8315c127cd97c197166cc8acf6415b2f5ade3d925214739d7690",
+      "adapted_sha256": "6f065b07863dac439db2193c35a4b5a9b7fbdc62be799f5789018eef715a881d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentalRecentering.lean",
+      "original_sha256": "ca2eaf6c1eebfa6a7d9119ce1f57a26daaf09f421b2ca43a6927e74e7732611e",
+      "adapted_sha256": "cead6dda20fbb0a9172bca12edf75476c8566d7e44b3428b44a614ca00e20803",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "PermanentalTails.lean",
+      "original_sha256": "eded7ee156efd2d62778fd3fcb70731d273111484bb24ae8de3be7d2b48aae2b",
+      "adapted_sha256": "88bf807e500791a20a792f00243fe9f1c4527580be8a9e79e8d8bb7c8391764d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProbabilityNoiseKernel.lean",
+      "original_sha256": "43c7ef8bdb43259fede37d63f58ec898a368dc5e666ac902740a5337e3311e8c",
+      "adapted_sha256": "6eea8fd1f99c65675e4138c8f25e5b118b4dba3ad485769db526b8150385791c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileBudgetRates.lean",
+      "original_sha256": "8a5131d997a5a0bcfa954fcce315e23fb143c3ecf89d1d397646054bbe49b29d",
+      "adapted_sha256": "4b71d5a06bd212714aba518125687b622125d13f7c5f8a3afd7cdef7930b88ab",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileCoordinateNoise.lean",
+      "original_sha256": "0443a3b08443f00330ec612746dec8b8fe6ca4ac25555a898a830278abd92269",
+      "adapted_sha256": "6254cfae7896552674fcca560988567b8dadfa022384d6034e1faf549e393ba3",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileCountRates.lean",
+      "original_sha256": "bf74608e67c6e28c00bd57772ddef61dbcfa00ad1f66c66c6157259202ef8fd9",
+      "adapted_sha256": "55981a04af799f6864e4f10754e262f9d0339839e67e8f41f4de0a755ddbc945",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileCutFailure.lean",
+      "original_sha256": "b8f40df49918013955941f7e39455967fb936903c9491ce7103f108ac0180f1d",
+      "adapted_sha256": "28c872efef084346ab282a66e493054a6f125b97475838573f307ad461219b22",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileCutNoise.lean",
+      "original_sha256": "4ce355171e989798093532c21904916b4263cdc39ca16e33ebcd23a8f909cccb",
+      "adapted_sha256": "9ff62b7baa00dc350b2db3b0a414075697c174b6186a6970bad67fb7c838bdd2",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileCutNoiseValue.lean",
+      "original_sha256": "39843feb587faeaba4229466dc3215f9b95a8275a22c4191dacefde3b387e4e1",
+      "adapted_sha256": "838e8a93d0d90abafe09a8233132de868fe10295a5311091adc1b6569e938d1b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileCutPropagation.lean",
+      "original_sha256": "e2341c7f4c4419f7487f310bbeea3d25fb07c68ee06e9d3526f74518b5d5707e",
+      "adapted_sha256": "b0497589ecdda3d36a196f44014da9d2962e35e0d9396d6a903cb4f9ec370071",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileDefectStability.lean",
+      "original_sha256": "ffb6089238c86a89e81748dcf4a3210fae8e2b3bd5e3c87d9e72b51281ddce61",
+      "adapted_sha256": "305547dca967a487ff47648f8bef3b96eeefb10c3a4bed6f92c56e890354c536",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileEntropyError.lean",
+      "original_sha256": "f37aedce3faf1357cf773284f023fb097803bd250c755a6d8dc34b0b2d5f240e",
+      "adapted_sha256": "d53284473da2796852e99e80d95263794272dc549876e5999281895cd598fe50",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileEntropyRateBound.lean",
+      "original_sha256": "2a97fa0a9a01770cf1108903d5be40bda49bcaed6ab56b3eb9d2a5af419f555c",
+      "adapted_sha256": "263b55af4e9393fb67e0ae6b56ed9ee6821960a9ce8982782c79432132c4d1fd",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileExpectedRecurrence.lean",
+      "original_sha256": "ac0580d40968dd76ba7fec7e10075ddcd92962c5be5b484a178a3a27bcdb101a",
+      "adapted_sha256": "bfb23570c1e5792fc65ed1298a25848c0cb671b4f83b45c662b2a3f3ff61e89c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileFiniteCount.lean",
+      "original_sha256": "3d1eeb8c549c934ff6ce511285fca987e4cbc233431409960d8bbc66b19b3ccd",
+      "adapted_sha256": "f2cf1f019889f4b42ba3b7e2ed53228f6c6f958c8e45246bcf65b9d42abeb7c5",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileFiniteRates.lean",
+      "original_sha256": "7ee2d00b492f8cc8992eee13d4b69cc5ada86165d069e9d5bbb0bb0883e6e536",
+      "adapted_sha256": "43ba9abafc302ceaec7915afb1597f951e4ce5f2df85de1f51cc42c436cb8b85",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileFluid.lean",
+      "original_sha256": "760914dbf8fa846c047183e98260a194d0c3689d910b61d56f8d43f1717c4a3a",
+      "adapted_sha256": "1056832837a3668ba6e5672c433b06c45f690849c7c40ce90191910c8f16ea27",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileFullCuts.lean",
+      "original_sha256": "e9bd8578920a7e44d31fdca55812879b141ab113eafbe721f935117f6bf82546",
+      "adapted_sha256": "12e1e04f259dcca96346889eacbf8c762ae2ac48f2d8ea610c1471ae560defa6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileJointRates.lean",
+      "original_sha256": "7eb39b6a993efa309948749fa597daa35b1a414e92d89d447fcb20970083ed08",
+      "adapted_sha256": "3e37c49f155bc30eeca271f5b6b14a8399624ec584511f3d44ee0b272591a9b5",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileLatinArrayCount.lean",
+      "original_sha256": "03f6b15738539b9cf897ba3df6b08273778250927a8d40ec051b9503c9085a3c",
+      "adapted_sha256": "d341a3c4dc3e77411a88bf1ec87e2c166d08f50d3e150082b969c69d8e4172e4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileMarginEstimates.lean",
+      "original_sha256": "63f3c4c6a6a3cf56e34fc5fd93ec3e7b9e78629c51e9512328b1d804dc061974",
+      "adapted_sha256": "3bba1808fb3b60e8b4ae1de59e45f3242d4a54eb2aa0242c81b41650bcdbc7ca",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileMonitorTests.lean",
+      "original_sha256": "d8ee4e9b2fbd2bde671cfa1ea5939c7f0e5d42896b805464a01bd2b445f17a36",
+      "adapted_sha256": "1afcfb4b5dc937c02f70f75c917102e64d3e64a7e358228470d56afba0c0be83",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileMonitorValues.lean",
+      "original_sha256": "fbdfb8af8c5434365ff403e176d304efb596e4a232ab3b6bdb08864f3da5ab4c",
+      "adapted_sha256": "cfde233e51db235dda1f1fd901dd489fdb729b90905724bc89b88207e11a9057",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileObservationCuts.lean",
+      "original_sha256": "eb92acb6c75383e91080663fb2150a30c21ff3d2c29687b9a0ead4af3a039444",
+      "adapted_sha256": "a4d917fb3750037d463fb8188c9fb89f45bc4286f06e7bc15ae4f8dcf00ed570",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileObservationMonitor.lean",
+      "original_sha256": "fe5aa9cff7cdd1f520c3f8f90eb5a182ace98a03aa28e9aef3953e31284d9467",
+      "adapted_sha256": "6d95856cd4ae1c4cf11fdeb93222e0e2ec51aeca2f8c16be8941ec8af89ccad4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfilePrincipalCuts.lean",
+      "original_sha256": "f617e74f7207247140bb8df12e44560600112a9fa05989395ebadfafef5b908b",
+      "adapted_sha256": "0ebf93c66e76e7b378a01dca04d2818378aec8fdd70d4203e0039b745eef3a36",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfilePrincipalProbability.lean",
+      "original_sha256": "6a8bab5380cf31bb67e1b645d27368c16eaee4594abafa2d720d7c47b0582cfc",
+      "adapted_sha256": "75f936ed44a962de92e1ea8e8dc758bc7cd5166d2a6ed6cb5065d9099c66e04a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileProcess.lean",
+      "original_sha256": "cee733e7f3e0b547969bfcefbc277309e46226c57ef2ede6ac49e9ff6ff23c8f",
+      "adapted_sha256": "314ba95289063f1280cd748abea6129fbf5ef68721f2bf305fd06da41d1b6b1f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfilePropagation.lean",
+      "original_sha256": "695793f7c9c371e1fc8ffe812bdea23c00e4e15ed70b63d9a268ec6289ca48c1",
+      "adapted_sha256": "18f8c76f6968371f91561f85093dd1e8c1da3177d166736f191a8a2401b1b31f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileRowGuard.lean",
+      "original_sha256": "4aa333a87733c26a6c83c00b459fa40287ea6ac1dbcb4aaef2df5b7168806359",
+      "adapted_sha256": "433e9cc3ff94c9cdbc1e4cb55ebb40d591e8b385437e6bb43525054253aaf143",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileSurvivalEvent.lean",
+      "original_sha256": "aad4bc5718c3bd085aad46f463c8adaceaf10b9c19fa7f27b5b8cf03775c3317",
+      "adapted_sha256": "666e00d3740e39ea6239acc86b7b5cc85b98e708c51e9fc784d6b2de5b7d3957",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileSurvivalProbability.lean",
+      "original_sha256": "0146de5f201a935f2818bea9f9df718f576c2f2e11c37b2e3ad8acce13ad1fab",
+      "adapted_sha256": "9dc5d190d1e13997ba2fd8f2a02b14fd1b69918d4d891fe2a6036f1cf663a377",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ProfileTotalEntropy.lean",
+      "original_sha256": "a509113572bd6d29b821e2486e4830d50428f6a1f91f33f5bf94895eb91eea2c",
+      "adapted_sha256": "a0dca03cba5a7c9d91b8647dae5fa20ebf4ec3f4e3993b2c0d0e84b3cd289f34",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "QuasirandomCorrection.lean",
+      "original_sha256": "2bf069db83af03798acebfe38e24ba5d6fcbd24ec138599d8923e34f8ea067f0",
+      "adapted_sha256": "584f13eaf13b7c8e937acf66bae25113f9391a50bf12bcdb41571db2817ae14e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "RectangleMass.lean",
+      "original_sha256": "a6222f41ee83e3aed9498bbd544876dedfe4d04bfae96d5550dc4681fbc5d2fd",
+      "adapted_sha256": "6c7bf554999d7a768244d115b5d04a707457599987e28ac6a99b3a008e0e5e8b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "RelabelledFiniteLatinon.lean",
+      "original_sha256": "1c70307a03c01cd82aa839b45c68de258a5910dfe62b39a8ab35c56e1117d25b",
+      "adapted_sha256": "23da358dfdd37a77de04ebc2ae41e94c9a4e1df07bf6e0eb18f553e6a4c89479",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ResidualDiameter.lean",
+      "original_sha256": "50daf873c30037e282d6321cef925f86a9664a7a323e68a2b5f49efcba0ea3ce",
+      "adapted_sha256": "e28f9deb1e3657c903914cf1502725b44cc3f740739f518b8bfaed4daa5a81da",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ResidualOptimality.lean",
+      "original_sha256": "7946d941dcdab94941ea81e3510850972791a6e0d50de20f226845ff8498a911",
+      "adapted_sha256": "2b3d9b15859e698e00673d7910abad282fd9e61271189ebd154091ef36ed5269",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ResidualPotential.lean",
+      "original_sha256": "82b9d544f491ff1040a0437520a0bafb2cda07653c5e8c0f92988698e9ca84bc",
+      "adapted_sha256": "51f4e67cef48019ff2b1ff6d496251a924d458abf2e9a2cb8ef991b4e41573c9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ResidualWalks.lean",
+      "original_sha256": "ee265cc0c8650831e8549cea0766a803e70a34405fc7ac54b362a0e941dba9c5",
+      "adapted_sha256": "54e9a42b8e7c61456c947ea16068eebdab814d5323363f86dbc74b07929aaa0d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "ReviewAxioms.lean",
+      "original_sha256": "b8dbc5ba72ad8bc9b046eb60ee2ae802977f44d71ce1d0e22eb1a3a42ca83432",
+      "adapted_sha256": "435e5376c6c26b6c537a593e5025569131f57e21e3e92b5deb8f16d4200b346b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "RowEntropyBounds.lean",
+      "original_sha256": "20bb707a9c02bfb9704d1ac3b8ef636a66cc004661eb3e7d9b417d2bed6c2925",
+      "adapted_sha256": "a22f60b2a43a4eae16312af3dd07709369d504c00a25286af91ecb8e8ef7d249",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "RowLogBands.lean",
+      "original_sha256": "1f7ffdb71f707ef8c50479fbca802b12cc11d7b2d5eb6a9138c32b6b113179d9",
+      "adapted_sha256": "774916192f687d1cf697af164b6b1a9ba04272ae238ff5b2926cfe57f2c4a826",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SignedWeightedCut.lean",
+      "original_sha256": "cf80e665414bd39faa20b8d520e4540c9b414fe953bbb7f5586ad148b81d99dc",
+      "adapted_sha256": "6b25752ace4237bcedd39f4e9c80022c9ca54629a21b9af5596ce02cce8ddd9b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SignedWeightedIntegral.lean",
+      "original_sha256": "6e6486b54385e3246cf03f1fd3b5317fd09c5dbe1bf15273f25a4c34df6954c4",
+      "adapted_sha256": "03d19a3eb99adbee0cc07900bcb803e64b679801581948b03bae818c8f8fa6e9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SingleEdgeCounting.lean",
+      "original_sha256": "4a29bf888e277fd511e51f4c93774b2e1ad5c0f4746de30ebcf4a15a40a44cb5",
+      "adapted_sha256": "08b540c18bdfbfb5c9f804ffe50dc00b56f021deff4e4cb12200a6f9c18e46f1",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SmallResidualStep.lean",
+      "original_sha256": "bea39a09199ed714ccdab36d79c2972e7eee104c1b99a174425e66bb56128b96",
+      "adapted_sha256": "3798091b10bad2e5cf262f7ef397d7c20b233662a0508f593f72fadd7f0cada4",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "StoppedAvailability.lean",
+      "original_sha256": "a567457924d733ce2dc4795f6df7ad3ac6145fa7a398de00d9607769b0d59c60",
+      "adapted_sha256": "461ffd15aa94e1969e40d0f24b6952a8826fa147b744e8b7e80d1a623f971cd7",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "StoppedBudget.lean",
+      "original_sha256": "56a88151a7a71a3f0ca2613390f9b973f4353088a3e404594ca46e504f5c2ae4",
+      "adapted_sha256": "b8d466afce65bbd39f276cc9ddb32d3b4bcc5efbb8a89ca9824b4320c6f479f2",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "StoppedRowPolicy.lean",
+      "original_sha256": "16a35eaea1c648807980f27b36d368613848451e0425a7455fcf32fcb49b0341",
+      "adapted_sha256": "6ffbd8d7e8cf5987e281301272877512147b9b3e3f5967b9506dd4e870baa308",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolBlockEvaluation.lean",
+      "original_sha256": "fb74d831cf5f6b86bf20a8f85ded647e1f6c91285c229510eb7810105160a1a6",
+      "adapted_sha256": "726867648b0a3af23e8e30388af9d77e2b151bcecbdc4edade58e2004fd1d747",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolFloorCuts.lean",
+      "original_sha256": "0236a1c655ed14124a4874ba2cfa6fc0f692125a2cc49d81361483c3e3dacf55",
+      "adapted_sha256": "078d1267a965fb8c9cf8b1e484b01724151631e9534732b748fb0f967ff0aa81",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolIntervalClasses.lean",
+      "original_sha256": "0996b94af3a2e48fef812cb8130505da7421265d03a35eb4586542b6e292bbee",
+      "adapted_sha256": "406d6149547599f8dcf8110e6b4a5f1d086edcc988888e2eeca6691233b26b85",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolIntervalGridApproximation.lean",
+      "original_sha256": "974d43534733c7d9dfe4b854f4b04fe61965b12e8f6438d55345325351f96352",
+      "adapted_sha256": "da30e311332039f9bdf0b80a9164447d12ba9ac328ccf0e69164739ef5eb93a5",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolIntervalPartition.lean",
+      "original_sha256": "05da5df7f4a18e830a90115d1a8a4fca75642cbb91989fa542cf53411cb75861",
+      "adapted_sha256": "9e499607ce8ba9fd512ac024fca584f4bdb63f880c383f1fb038418f5079b8f0",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolIntervalWeights.lean",
+      "original_sha256": "0bf3312cfa305ea15e5968cb67b0b7d0777878690671a9a9536515d3b521abfa",
+      "adapted_sha256": "e43deb27e5796333ba875f91791fbc61c31131b42bf4775eed7895360fd91ebc",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolMixtureEntropy.lean",
+      "original_sha256": "056408472968f19d63ab48a87c5f24d2797bf331cb38ea1ef4dac69ff948974e",
+      "adapted_sha256": "c58f0de5b920152bc64b226db7455d75a21d886f4e9f8f5e33efbbfabbfe6fea",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolMixtureFamily.lean",
+      "original_sha256": "d0c11e4e10064c73a5584f74731832c2d4c1ee2291ce9216e6a9e0c1e36fa0b0",
+      "adapted_sha256": "6261104d955cfe32359f4e06800efac12961f52c79ea9b59a06eba0dcc03114e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "SymbolMixtureMoments.lean",
+      "original_sha256": "19b959252efa4610a8ad3b5da7eab9739328b94a1af48fb579404c93b9a81cb9",
+      "adapted_sha256": "8ca77ebecfcad9429777cfe4b1547c0ff1d117dd225d60925db3e39fbd433b4a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "TensorCutLatinonBridge.lean",
+      "original_sha256": "0f285c8fb40c99a13594e57482a2510e7235839f2c4c35845def67d4fbf81015",
+      "adapted_sha256": "31ab32ca89cd9aec34d552c10db3b185e1f9c2728624be1e61ff7f9ed9e356ef",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "TiltNormalization.lean",
+      "original_sha256": "580db792a7e4f1bbec0ffe2ea94b352977a5a48bcef028619187b509d7645355",
+      "adapted_sha256": "96a34af997ab306e6a72fd18c2285297ab5f49a5c894abf6930daf062a91f5f9",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformLatinProfile.lean",
+      "original_sha256": "f6ea81ae6f6e71787983335349bf940cb44b771745de34e605196c3d7319bf8a",
+      "adapted_sha256": "547cbaa86b00439a8071e61a7627723237f1756f7c26cc9a80faa66ad6392fed",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformLatinonGridLower.lean",
+      "original_sha256": "ef6ce4ed04d736f4779a8962e12933d63ed63c8adca5b0aa983a8386f65503e6",
+      "adapted_sha256": "7c34896a6f85c6e0f859d85fc3663b4a89c9ff8a0e424d517e4373566857fc4c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformLatinonLaws.lean",
+      "original_sha256": "9929410f5eff570e2174ec73c18808cd6428db60b4e75f3db671ea56399c1b8a",
+      "adapted_sha256": "629dd1e077307943f950c5ee02442edc4681d9088159dd5c6bac5ee77543517d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformLatinonLocalUpper.lean",
+      "original_sha256": "907aa146f25d777b6aca5dc07e0c1468526769f8afd66e7f8f9a613a409825b2",
+      "adapted_sha256": "5ce95f2de137f91a6a1f6406071bd8640df7ed4c4b8e35a887b119e4f166f5af",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformProfileCloseness.lean",
+      "original_sha256": "50116602dc82052ecc5916afb2cf70047d6e67a3506c356e6bf51cd67a6c43e6",
+      "adapted_sha256": "c47a53eed9c584a8bcbb1bcd88ca8df1880d1bf267ffd2b0686a8efda3ec0cfd",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformProfileHistoryCount.lean",
+      "original_sha256": "a435a37a1897c699aab62d1d02e9ca1882ac01b232ef56581dd8f3af30f5f7e5",
+      "adapted_sha256": "19fef2e846a4020c8a63c08b7fb229ca5222e336f86238bbc1bede6d8359576e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformProfileSurvival.lean",
+      "original_sha256": "63d642fdbe9987805c1c80947455e40446b1a500430d614fe725ca76c8620839",
+      "adapted_sha256": "7d1606edb85cb18866a2d6ed9b35eacd5888a573ec33d7bd1f86fde8f2ffdb09",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UniformPushforward.lean",
+      "original_sha256": "75122898186a49e92ca67d6b06348c5b5a263f2554aca6ff64009d74a75dcfc8",
+      "adapted_sha256": "ae34ba2b3a141d8e7c01b6bf53f7d759037dd8deee1be2e0217c9b7fbb962c55",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UnitContinuousIndicator.lean",
+      "original_sha256": "cee8d07684ee7a3cc5832cc6e00fc7f22a6fd80c7d27021509e3847b32d5c280",
+      "adapted_sha256": "27e8ac9f55ec1585d416049deeaf4e8cfa3b38680b2763b160db6d185641b9ae",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UnitGridL1Approximation.lean",
+      "original_sha256": "02733e5b35e8ceb1006366c3756d9c19b091ee26bf0d09ac6342bc55d5534b9d",
+      "adapted_sha256": "ec0aca26ab13e68fc4bb2e805a81fcb62778dc562f65b5376b5ab580edcfc421",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UnitIntervalBand.lean",
+      "original_sha256": "559b1ca3efdea8e1fcc6e8390188b1df6945139d2c4591c04f41128dbd8564e5",
+      "adapted_sha256": "6eff9726e0b529f8bb0b1132471d80b8ad48bf92b6b36bf4212f8625ea1d0146",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "UnitOrderDisagreement.lean",
+      "original_sha256": "070ef63301cc19d9ea44839ac3a6ef852cdb4a7cdfdb3fe296066fd054f74d6e",
+      "adapted_sha256": "9d04cfbfc298f3efc0c5ac0c55ba59440f3a14f04df8e71df0fbeaf0bcd8d731",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedChain.lean",
+      "original_sha256": "81c498077a6f0124e964a80721054a664b11db2d9211307a84e743a9c8d6a0f0",
+      "adapted_sha256": "9076d19f5b10d4bc1a183a8b3c80692dcc2b8d3b348ce2cff97919adc184fead",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedFluidPropagation.lean",
+      "original_sha256": "98e9bcc023e5e22fae3940d32a12a859bf402b57a437e9246b5282b10376305f",
+      "adapted_sha256": "adca8e267ac9d309c361141b9d07f79f99625994eda4e33e0577736e7c3b5617",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedJensen.lean",
+      "original_sha256": "8f63b5ae217bc84752f074fc15b9bd01065ebef9f09c4026a09fb466cf5f60cf",
+      "adapted_sha256": "5b456a56224f9a21a67c15e69424210e861c94b9c8b28aeee87d3a08578e0776",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedLabelCovariance.lean",
+      "original_sha256": "98c7682fe71de23ecec325cecdc6bf72f3a0caa576ff8dc3de3f31f0b661399e",
+      "adapted_sha256": "e4a24c01b07c25456556cff36edf739dd394c81c06241af8f578e24d35a79e68",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedLabelErrors.lean",
+      "original_sha256": "17a20121b5bf10f104c7169ff9ad79b253258320ee608f123c1ff8e01ca9ba94",
+      "adapted_sha256": "851acd5c93c5c5aeb68e601bbcdad9b30ffa2e083681759cf928b29b4c27b858",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedLabelMarginals.lean",
+      "original_sha256": "f514381ad5535a318bd717b695970549a50477db05da6b20ceb2ae875c8c333e",
+      "adapted_sha256": "ab8190663436af8dc016cdea051d90e0f81d7b6d2ad42385dcd92b7a2d44f38e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedLabelPairs.lean",
+      "original_sha256": "ddceb2f2c2646345b50b20b1e4c62cc66733b9dedc0f69e95bd5f8ff15c767a5",
+      "adapted_sha256": "2eb52bf153b03ac06df863b6c6ac564aadd7de54cb7a9b2bd3081924e30ce0b5",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedLabelVariance.lean",
+      "original_sha256": "a07e417a4d5a23459963d7658a4bdd5f4f669d36e7fecb75317ea125954b88e5",
+      "adapted_sha256": "00e956bf0ce4b1e6adcb2a777f8aa3a9682c48818a3384a7dcfea9d3c3c1c155",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "WeightedLogSum.lean",
+      "original_sha256": "22c58ee9bcb10bea782724d71f2355189d1c7999feeed9af506771f6cbd02052",
+      "adapted_sha256": "735467daa8ec8a1996fb1c6ce435e8f26d8e0bcd744765310478b45e21216c76",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/applications/CDRLatinBlockTransfer.lean",
+      "original_sha256": "60b7244e9e7387cfbf98b77045478f2888476c9604ca52927e28dcaca4def2f8",
+      "adapted_sha256": "e5f51ee89bc39f6228e0f8db4f6a30a558701bad7645c19de48f7c9980d321c6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/applications/DistinguishedBlockEntropy.lean",
+      "original_sha256": "474750a7f30172a8b8c6bf25305e8012dadd5332baf63c81d6d57b8332546797",
+      "adapted_sha256": "37b93b2fec143ca361079726aeb1bc75451b4fa77a76f94e9d3696d035ff677d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/applications/LatinBipartiteFactorizations.lean",
+      "original_sha256": "73559f1c09e347ae117664d1d3b82e7931e4ed58b4311d39f9540a5ed6620537",
+      "adapted_sha256": "f5be3976c6b19dd6680eedcb205baf2e304728f39ea89480f6f77dbf803f76c8",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/applications/LatinonSeriesApplicationEndpoints.lean",
+      "original_sha256": "2a2f31692fc40ba2cfdb01cb9e397c2f6a039c8f26871822f0e9532e2b206a73",
+      "adapted_sha256": "4c615cdea06ca5f4c829048e62c7517587abc86b41fa3ef086039d30a06a2f71",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/applications/SeriesCDR/WilsonPrerequisites.lean",
+      "original_sha256": "dc1bde0f69c5ee24638b6cd59e0f964945154c883d44aab635a6da15931761ba",
+      "adapted_sha256": "a2d26acb57b0e8c2c2eb3fd0ff2d66c0c3a3b127a96d7a6526342e8317531243",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/applications/WilsonLatinBlockTemplate.lean",
+      "original_sha256": "8b7306ad80b2743f39b34faa62c85ae2cd299f7594c0763401d03173746647d1",
+      "adapted_sha256": "98ae62b93dd9f794f325d4ac1083e6ab1e253d9fc92dfa1116d081f2181af6ff",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonCoarseApproximation.lean",
+      "original_sha256": "426152238c1f4812c34968075bbad5700e689aabb08d6f4541312001db81b763",
+      "adapted_sha256": "cdd8b0fe4866770779b5fd9038e8daa84b7b0dd5feda1cb4de08a400d9d48be6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonCoarsePatterns.lean",
+      "original_sha256": "8dae1fcd3ec2c465648f4f3e248ef5bcc9cdb8c062a6e41b08127a91278fe0ab",
+      "adapted_sha256": "f92cda1fca4c2427a4a035d074c9459ac87e539f1e73e09b4c7e0db0894a945c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonCompressionPatterns.lean",
+      "original_sha256": "691357a0f35b9182f968f74a43fa9adcf8b1eb3fe747978b083d99cd05280e51",
+      "adapted_sha256": "20bc88122f7e6f9bae448c54bd60a26532229608f661d7059eaa00ef55ac3903",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonFiniteIndexCollisions.lean",
+      "original_sha256": "d965dec7067685c624d2522c43d666612895c7b81f56370c464a63577b206db2",
+      "adapted_sha256": "d39106f6f3cdd5a8a5615343fe12b44293e08bb069f1d6a1dc8b321dc5eb9126",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonFinitePatternBridge.lean",
+      "original_sha256": "8c82cbcb122612e6b1b8bf50cf22334a9aaf99059d07db3318aabb1bb4378350",
+      "adapted_sha256": "08c5583095048820f42c6c866b551f1c7690ff582f308c419c2e9be7bc0dbc4d",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonFinitePatternIndices.lean",
+      "original_sha256": "dc8db863749499482ae035d7035621c762191859d4283fb3191c79c5d95ea763",
+      "adapted_sha256": "795f489e9e64c9ee300150e4ad64f60931f74f1022ec795a9108caa32f5b7f83",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonFiniteSampleSupport.lean",
+      "original_sha256": "9b886577588b75a23de2ba8dab2562a5fbda75628dec47b6179b500561002dbb",
+      "adapted_sha256": "fe8c7a5c53c908eeaaa39ee72f6eb2bed8369df7ca4405bd253c06109a270b8c",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonFiniteSymbolGrid.lean",
+      "original_sha256": "1484747e3d5ab358fe525ea76ef1724a44e2872366906f95ecfe398f7de9ac6e",
+      "adapted_sha256": "57f74f584257b026e01ceff11b0489e2bb34750386b690db8072d57857bd5c4b",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonPatternAlignment.lean",
+      "original_sha256": "9317962e3ba2c703a2f344a489fdc60749966d2701eeefdb4c7115bcf0436726",
+      "adapted_sha256": "3f32cf619b9829d7213ac45c6381fd134be25e791ce152a43e1a68e66ece266e",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonPatternContinuity.lean",
+      "original_sha256": "faf433173b30f57c7218a6a23262fb9fa0533fa36ba5ecdd03f9fbdf3493b0df",
+      "adapted_sha256": "2561b93a66a225e51e1a4a05d15849794b3a463a399693af6ecb2ea3c8c33523",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonPatternGraph.lean",
+      "original_sha256": "f2c18d98f9c2338acd508aa29c8972f50c15536335470fd0e7f81c7909322d0f",
+      "adapted_sha256": "e35d7cdd0eed71dd53a29d56085816ec56e48ab4d456e37748ae9b973d3a84e1",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonPatternPartition.lean",
+      "original_sha256": "3a5fd99df35688ed26ae5c3c2df32ae2243e2ad8d829ee1268035b3d0333a107",
+      "adapted_sha256": "37609c8f5cb2d4eca5d98faa49858e1d648a8dd9e39e9f293cd37c4e94a599c6",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonSymbolAverages.lean",
+      "original_sha256": "2aed4c6f1c8c4dc9c56312fc60c9cb822d4250038f16b3613db4983f6d328614",
+      "adapted_sha256": "1c890aefe6ee6186b417515beea73e1ab33c194acb9c82066e316352a5339981",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonSymbolCollisions.lean",
+      "original_sha256": "b6a46f2b463b3006230a44d1d1760b805f87b2e420a56adb7408a9b388293a30",
+      "adapted_sha256": "1dcd8a292869c610c7f3583fd68bf95fb67e3130e223dfabf5f99c7b85538820",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/LatinonSymbolPairs.lean",
+      "original_sha256": "90c3aab97c1d51784f203b3d6569bd5b121b4c91a64722f438ee038ad31adf75",
+      "adapted_sha256": "429b2dab70cefbadb2c35fe4eca5b6e48c8f6dfd26af4940b19026be8242b8fa",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/UpstreamGraphon/LatinonBridge/FinitePatternEntropy.lean",
+      "original_sha256": "281a21545446864466ebf095d6522cf2f42e270fc995d9054f1c524a423bde9a",
+      "adapted_sha256": "dc2d96ab884a2c7b7725c41060cd1110b2552c828200e12ca02b46426c26370a",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/UpstreamGraphon/LatinonBridge/PatternObservableCounting.lean",
+      "original_sha256": "17a664ad302d3b6ef1ffc949fdf1b7b6fabaf644ae9f215039d3611d67e91374",
+      "adapted_sha256": "5419d64c108fd959941f9ec3935be9704dccc0ef282d809b1efb3ce266899b5f",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    },
+    {
+      "path": "evidence/proof-inputs/VertexLeafIntegration.lean",
+      "original_sha256": "e605ce683bed4b46dff729e5a628ff577198ab3318a9d99c5d3bb8eb9686ade6",
+      "adapted_sha256": "3549c75842d1b4a03b4775941792783e6e1a8006aa864c43bdb18577f147b0da",
+      "changes": [
+        "module header",
+        "public imports",
+        "exposed public section"
+      ]
+    }
+  ],
+  "challenge_lines": 473,
+  "configuration_adapter": {
+    "file": "lakefile.toml",
+    "original_sha256": "4ee7943ee550341ce3f9fd4efc75399c9643c7919a5bfd5093281833e169bce4",
+    "adapted_sha256": "fe51be956c25192abfa7c6e3a99c533dbb49505ce69b9f43a82bc1608c8429f9",
+    "changes": [
+      "package version 1.0.0",
+      "default target Solution",
+      "separate Challenge and Solution libraries"
+    ]
+  },
+  "challenge_bytes": 22416,
+  "compared_theorems": [
+    "LatinonEntropy.latinonCutDistance_self",
+    "LatinonEntropy.latinonCutDistance_symm",
+    "LatinonEntropy.latinonCutDistance_triangle",
+    "LatinonEntropy.finiteLatinMeasure_xy",
+    "LatinonEntropy.finiteLatinMeasure_xz",
+    "LatinonEntropy.finiteLatinMeasure_yz",
+    "LatinonEntropy.latinon_rate_lowerSemicontinuous",
+    "LatinonEntropy.latinon_full_cut_compact",
+    "LatinonEntropy.latinon_rate_sublevels_compact",
+    "LatinonEntropy.closed_uniform_latinon_upper",
+    "LatinonEntropy.open_uniform_latinon_lower",
+    "LatinonEntropy.finite_rate_standard_pattern_log_count",
+    "LatinonEntropy.empty_standard_pattern_fiber_eventually_zero",
+    "LatinonEntropy.finite_latin_tensor_lower_bound",
+    "LatinonEntropy.correction_lemma_five"
+  ],
+  "note": "No proof body was edited; all ported source changes are module/import/visibility adapters. New interface must be checked by the official full GitHub preflight."
+}

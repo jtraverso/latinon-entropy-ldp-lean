@@ -1,0 +1,37 @@
+module
+
+public import LatinonBridge.LaplacePrinciple
+public import LatinonBridge.LocalObservableEntropy
+
+@[expose] public section
+
+#print axioms LatinonEntropy.exists_latinon_continuous_upper
+#print axioms LatinonEntropy.latinon_laplace_integrable
+#print axioms LatinonEntropy.integral_lower_of_event
+#print axioms LatinonEntropy.integral_upper_of_finite_cover
+#print axioms LatinonEntropy.latinon_laplace_lower_at_point
+#print axioms LatinonEntropy.latinon_laplace_upper_of_variational_bound
+#print axioms LatinonEntropy.latinonVariationalValues_nonempty
+#print axioms LatinonEntropy.latinonVariationalValues_bddAbove
+#print axioms LatinonEntropy.finite_rate_objective_le_pressure
+#print axioms LatinonEntropy.exists_finite_rate_near_pressure
+#print axioms LatinonEntropy.latinon_laplace_exponential_bounds
+#print axioms LatinonEntropy.latinon_laplace_principle
+#print axioms LatinonEntropy.latinonContractedRate_le
+#print axioms LatinonEntropy.latinonContractedRate_outside_image
+#print axioms LatinonEntropy.latinonContractedRate_attained
+#print axioms LatinonEntropy.latinonContractedRate_sublevel_image
+#print axioms LatinonEntropy.latinonContractedRate_sublevels_compact
+#print axioms LatinonEntropy.latinonContractedRate_lowerSemicontinuous
+#print axioms LatinonEntropy.latinonObservableLaw_real_event
+#print axioms LatinonEntropy.contracted_closed_uniform_latinon_upper
+#print axioms LatinonEntropy.contracted_open_uniform_latinon_lower
+#print axioms LatinonEntropy.closed_observable_latin_count_upper
+#print axioms LatinonEntropy.open_observable_latin_count_lower
+#print axioms LatinonEntropy.continuous_latinonDistanceProfile
+#print axioms LatinonEntropy.distance_profile_rate_sublevels_compact
+#print axioms LatinonEntropy.closed_distance_profile_latin_count_upper
+#print axioms LatinonEntropy.open_distance_profile_latin_count_lower
+#print axioms LatinonEntropy.finite_contracted_rate_local_floor
+#print axioms LatinonEntropy.finite_rate_observable_entropy_count
+#print axioms LatinonEntropy.finite_rate_distance_profile_entropy_count

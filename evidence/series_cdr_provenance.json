@@ -1,0 +1,32 @@
+{
+  "source_repository": "https://github.com/jtraverso/cdr-palomar-kernel",
+  "source_commit": "5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10",
+  "source_path": "CDRBicolour/Basic.lean",
+  "local_module": "SeriesCDR.Basic",
+  "bytes_identical": true,
+  "sha256": "e09a6dddeb73f985f22076953d945140278c412b33c99846130b735ede929128",
+  "license": "Apache-2.0",
+  "namespace_preserved": "CDRBicolour",
+  "scope": "Finite CDR statement layer and Wilson packing construction only. The previous absorption existence library is not imported or rebuilt.",
+  "source_files_sha256": {
+    "CDRBicolour/Basic.lean": "e09a6dddeb73f985f22076953d945140278c412b33c99846130b735ede929128",
+    "CDRBicolour/Absorption/Count/Wilson/Cross.lean": "7dd50429821d44e98a3513c9bcc39eeb6b26c8d2c23e25cfc4be674f851de914",
+    "CDRBicolour/Absorption/Host.lean": "c5327129f007de299f3add92c673d1f2522071e49e28cf3f92be142a1c0dae90",
+    "CDRBicolour/Absorption/Lattice.lean": "a0a4f96e7bef2ebadb9c31475f61ddb611298d6547750e42cddd3fd5abab882b",
+    "CDRBicolour/Prefix/P2Types.lean": "08faff60e550d9b8881b65f49ca3a3c31430c35f5c5df8954f89dcbc715ef8af",
+    "vendor/counting-sts-cone/CountingCone/Defs.lean": "86adcd854fa708bef3c43170cfb6716a6483228d89e4b1337c84a45b8f62684e",
+    "vendor/physical-typed-absorption/RequestProject/TypedTriangle/Defs.lean": "5391850892583790739aad946aa1ddddd921b49eacac686c0697d8635fc98e79"
+  },
+  "local_source_cut_sha256": {
+    "SeriesCDR/Basic.lean": "e09a6dddeb73f985f22076953d945140278c412b33c99846130b735ede929128",
+    "SeriesCDR/WilsonPrerequisites.lean": "dc1bde0f69c5ee24638b6cd59e0f964945154c883d44aab635a6da15931761ba",
+    "SeriesCDR/WilsonCross.lean": "e3882e58c1df0fddf4f1b5dcef1b11bb6c5f8a51b75e2dc3e87899fc52803bf3"
+  },
+  "compatibility_changes": [
+    "Wilson.Cross import replaced by a finite prerequisite source cut",
+    "Three obsolete proof-tactic/simp arguments removed for stable Mathlib; mathematical statements unchanged",
+    "LFam now names the existing LatinArray subtype; definitional equality with the original representation is kernel-proved by wilson_latin_array_representation",
+    "Prerequisite isAllowed_triple uses one DecidableEq instance and explicitly reduces the cHost projection before rewriting",
+    "Original mathematical namespaces retained; source module locations relocated"
+  ]
+}

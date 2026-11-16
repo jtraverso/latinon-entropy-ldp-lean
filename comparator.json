@@ -1,0 +1,28 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "LatinonEntropy.latinonCutDistance_self",
+    "LatinonEntropy.latinonCutDistance_symm",
+    "LatinonEntropy.latinonCutDistance_triangle",
+    "LatinonEntropy.finiteLatinMeasure_xy",
+    "LatinonEntropy.finiteLatinMeasure_xz",
+    "LatinonEntropy.finiteLatinMeasure_yz",
+    "LatinonEntropy.latinon_rate_lowerSemicontinuous",
+    "LatinonEntropy.latinon_full_cut_compact",
+    "LatinonEntropy.latinon_rate_sublevels_compact",
+    "LatinonEntropy.closed_uniform_latinon_upper",
+    "LatinonEntropy.open_uniform_latinon_lower",
+    "LatinonEntropy.finite_rate_standard_pattern_log_count",
+    "LatinonEntropy.empty_standard_pattern_fiber_eventually_zero",
+    "LatinonEntropy.finite_latin_tensor_lower_bound",
+    "LatinonEntropy.correction_lemma_five"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

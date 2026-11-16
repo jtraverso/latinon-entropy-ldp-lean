@@ -1,0 +1,133 @@
+version: v0.4
+project:
+  name: "Entropy and large deviations for Latin squares"
+  description: >-
+    A large deviation principle for uniform labeled Latin squares in the full
+    ordered Latinon cut distance, at speed n squared with extended relative
+    entropy as a good rate function. The space retains both row and column
+    orders. For every finite family of strict order patterns and every
+    finite-rate target, the development gives bilateral local logarithmic
+    counts with binomial finite normalization and second-order constant -2.
+    Neighborhood radii may depend on the target and are chosen before the
+    order threshold. Empty compatible fibers have eventually empty finite
+    neighborhoods. The proof includes a uniform lower counting theorem for
+    bounded positive tristochastic profiles and a transportation correction
+    with exact support, bounded entries and l1 cost at most 5/2 times the total
+    margin defect. The entropy convention is Ent = -KL.
+  authors: ["Juan Pablo Traverso Gianini"]
+  responsible_maintainers: ["Juan Pablo Traverso Gianini"]
+  license: Apache-2.0
+
+classification:
+  arxiv: [math.CO, math.PR]
+  msc2020: [05B15, 60F10, 94A17]
+
+sources:
+  - title: "Entropy and large deviations for Latin squares"
+    type: paper
+    authors: ["Juan Pablo Traverso Gianini"]
+    id: "https://www.alphaxiv.org/abs/2611.latin-squares-entropy-large-deviations"
+    location: "https://github.com/jtraverso/latinon-entropy-ldp/releases/tag/latinon-v1.0"
+    relationship: formalizes
+    note: >-
+      Public preprint 1.0, 16 November 2026; Theorems 2.1, 2.2 and 3.1 and the
+      proved unnumbered refinement of Lemma 4.1. DOI 10.5281/zenodo.24284129
+      was reserved but its Zenodo deposit was unpublished when this package
+      was prepared. The alphaXiv page and GitHub edition are public.
+  - title: "Limits of Latin squares"
+    type: paper
+    authors: ["Frederik Garbe", "Robert Hancock", "Jan Hladký", "Maryam Sharifzadeh"]
+    id: "arxiv:2010.07854"
+    relationship: background
+    author_endorsement: not-contacted
+    note: >-
+      Definitions 3.3, 3.5, 3.16 and 4.3 and Theorems 3.13 and 4.7 identify the
+      model, normalization and full ordered distance. The source poses the
+      counting problem as Conjecture 12.4 in arXiv v3 (12.5 in v2).
+      The preprint states the finite-rate conclusion with Ent=-KL; this corrects
+      the sign in the displayed v3 conjecture. Its model-identification
+      Proposition 2.3 is a written comparison, not a separate Lean declaration.
+  - title: "An entropy proof of Bregman's theorem"
+    authors: ["Jaikumar Radhakrishnan"]
+    id: "doi:10.1006/jcta.1996.2727"
+    relationship: background
+    note: "1997; antecedent of the revealing argument for capped permanents."
+  - title: "An upper bound on the number of high-dimensional permutations"
+    authors: ["Nathan Linial", "Zur Luria"]
+    id: "arxiv:1106.0649"
+    relationship: background
+    note: "2014; two-owner entropy revealing supplies the upper-counting architecture."
+  - title: "Van der Waerden/Schrijver-Valiant like conjectures and stable (aka hyperbolic) homogeneous polynomials: one theorem for all"
+    authors: ["Leonid Gurvits"]
+    id: "doi:10.37236/790"
+    relationship: background
+    note: "2008; the permanental lower bound is proved in the included VdW modules."
+  - title: "Permutations with fixed pattern densities"
+    authors: ["Richard Kenyon", "Daniel Král'", "Charles Radin", "Peter Winkler"]
+    id: "arxiv:1506.02340"
+    relationship: background
+    note: "2020; related entropy and large-deviation results for permutons."
+
+related_formalizations:
+  - id: "https://github.com/cameronfreer/graphon/tree/9f7be59fa754d260a544b4cfd83d6a5b94f7552e"
+    relationship: adapts
+    note: >-
+      Nine Graphon modules by Cameron Freer were reused with the compatibility
+      changes and original credits recorded in evidence/GRAPHON_PROVENANCE.json.
+      Their mathematical declarations and proofs are retained. This package
+      additionally ports their module/import/visibility headers for Palomar.
+  - id: "PALOMAR-2026-11-07-000002 v1"
+    relationship: adapts
+    note: >-
+      Finite CDR definitions and Wilson packing arguments from
+      jtraverso/cdr-palomar-kernel at 5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10
+      occur in the applications assembly. They are not inputs to the core LDP
+      proof and the old absorption existence library is not imported.
+
+status:
+  scope: >-
+    Nine principal statements plus six auxiliary metric and grid-marginal
+    identities are compared. The Solution contains the complete included proof
+    development, rather than an external theorem oracle. The CDR and bipartite
+    applications remain in the source but are not separate compared claims.
+    No exact finite-n pattern count, globally uniform target radius, numerical
+    threshold or optimality of the transportation coefficient is claimed.
+  sorry_count: 15
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+
+automation:
+  methods:
+    - method: manual
+    - method: agent
+      models: ["Claude", "ChatGPT/Codex"]
+      tool_setup: "Human-directed mathematical development, Lean proof implementation, tactics and editorial assistance."
+  notes: >-
+    All fifteen deliberate holes belong to the standalone Challenge only.
+    The Solution and its transitive imports contain no sorry or custom axioms.
+    Palomar packaging was prepared by static source checks, with no local Lean
+    invocation. The official full preflight runs on GitHub Actions.
+
+fidelity:
+  divergences: >-
+    The Challenge copies the actual model, cut distance, topology, finite
+    embedding, uniform law, extended KL rate and sampling definitions used by
+    the published proof. Three metric identities and three embedding marginal
+    identities are exposed as additional compared statements so no project
+    source is imported by Challenge. The published source archive is identified
+    by SHA-256 in evidence/PACKAGING.json. Source modules missing the module
+    header receive only module, public-import and exposed-public-section
+    adapters; proof bodies and mathematical statement tokens are unchanged.
+
+review:
+  status: agent-reviewed
+  reviewers: ["Codex, acting under the author's direction"]
+  notes: >-
+    The public edition retains its complete 309-module reconstruction and
+    subsequent cached incremental verification of the 310-module source freeze,
+    including twelve standard-axiom queries. Its internal audit, proof ledger,
+    written-proof review and scoped bibliography review are linked from README.
+    That evidence precedes this module-system packaging and does not certify
+    this new commit. Only the official full GitHub preflight can do that.
+    Internal checks are not independent journal peer review or exhaustive
+    priority certification.

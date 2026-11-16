@@ -1,0 +1,112 @@
+{
+  "repository": "cameronfreer/graphon",
+  "ref": "9f7be59fa754d260a544b4cfd83d6a5b94f7552e",
+  "upstream_toolchain": "4.32.0",
+  "local_toolchain": "4.35.0",
+  "status": "All9 upstream modules compile against Lean4.35 with standard principal axioms. Local LatinonBridge now constructs full Latinon compactness and global deviation bounds;C5 closure certificate passed.",
+  "initial_transform": "Removed import Architect and blueprint metadata attributes only; mathematical declarations and proofs preserved.",
+  "compatibility_edits": [
+    {
+      "file": "Graphon/HomDensity.lean",
+      "change": "Use the current MeasureTheory.QuasiMeasurePreserving namespace and its explicit ae application; use Finset.prod_le_one\u2080 for real nonnegative factors. Statements unchanged."
+    },
+    {
+      "file": "Graphon/Pullback.lean",
+      "change": "Use the current QuasiMeasurePreserving namespace and explicit ae applications; replace measurable_pi_lambda with Measurable.of_eval. Statements unchanged."
+    },
+    {
+      "file": "Graphon/MeasureIso.lean",
+      "change": "Use current inferred probability-map instances and explicit QuasiMeasurePreserving.ae_eq_comp applications. Statements unchanged."
+    },
+    {
+      "file": "Graphon/CutDistance.lean",
+      "change": "Use current map probability/QuasiMeasurePreserving APIs and supply the measurable-map arguments now required by Measure.map_smul. Statements unchanged."
+    }
+  ],
+  "files": [
+    {
+      "path": "Graphon/Regularity.lean",
+      "blob_sha": "6a5cc193a6ce178b60b62562b4aaf8d90bedb625",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/Regularity.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"thm:energy-increment\"\n  (title := /-- Energy increment lemma -/)]",
+        "@[blueprint \"thm:regularity\"\n  (title := /-- Frieze\u2013Kannan weak regularity lemma -/)]"
+      ]
+    },
+    {
+      "path": "Graphon/Approximation.lean",
+      "blob_sha": "9fe401e27393404d3e5ddeea4d15d048039cfa6e",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/Approximation.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"def:stepify\"\n  (title := /-- Stepification of a graphon -/)]"
+      ]
+    },
+    {
+      "path": "Graphon/Step.lean",
+      "blob_sha": "b46bbe00a21351d36c8e4359ea6cfd824099f6db",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/Step.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"def:measurablePartition\"\n  (title := /-- Measurable partition -/)]"
+      ]
+    },
+    {
+      "path": "Graphon/CutDistance.lean",
+      "blob_sha": "fc46e6a392510b381481c2541fd529cd487f8245",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/CutDistance.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"def:cutNormDiff\"\n  (title := /-- Cut norm difference -/)]",
+        "@[blueprint \"def:cutDistance\"\n  (title := /-- Cut distance -/)]",
+        "@[blueprint \"thm:cutDistance-nonneg\"\n  (title := /-- Non-negativity of cut distance -/)]",
+        "@[blueprint \"thm:cutDistance-self\"\n  (title := /-- Cut distance to self is zero -/)]",
+        "@[blueprint \"thm:coupling-maps\"\n  (title := /-- Common coupling by measure-preserving maps -/)]",
+        "@[blueprint \"thm:cell-alignment\"\n  (title := /-- Controlled cell alignment (equal-measure cells) -/)]",
+        "@[blueprint \"thm:pullback-contraction\"\n  (title := /-- Cut-norm contraction under measure-preserving pullback -/)]",
+        "@[blueprint \"thm:cutDistance-pullback-eq-zero\"\n  (title := /-- Pullback invariance of cut distance -/)]",
+        "@[blueprint \"thm:cutDistance-triangle\"\n  (title := /-- Triangle inequality for cut distance -/)]",
+        "@[blueprint \"thm:cutDistance-symm\"\n  (title := /-- Symmetry of cut distance -/)]"
+      ]
+    },
+    {
+      "path": "Graphon/Basic.lean",
+      "blob_sha": "48f8ed3e4c09963aee4c8ab75ef3d73214fe97ea",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/Basic.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"def:graphon\"\n  (title := /-- Graphon -/)]"
+      ]
+    },
+    {
+      "path": "Graphon/CutNorm.lean",
+      "blob_sha": "08123714abb312a598a06478b6de1322c0578cda",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/CutNorm.lean",
+      "stripped_blueprint_attributes": []
+    },
+    {
+      "path": "Graphon/Pullback.lean",
+      "blob_sha": "578f7aa8b1194872c13f7b9bae65d20c9fb6e073",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/Pullback.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"def:pullback\"\n  (title := /-- Pullback of a graphon -/)]"
+      ]
+    },
+    {
+      "path": "Graphon/MeasureIso.lean",
+      "blob_sha": "b7de3d43ad7333415ce7eb0f0953a31401b1f4e4",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/MeasureIso.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"thm:measure-iso\"\n  (title := /-- Atomless standard-Borel measure-isomorphism theorem (mod 0) -/)]",
+        "@[blueprint \"thm:mod0-upgrade\"\n  (title := /-- Mod-0 isomorphism upgrades to a measure-preserving equivalence -/)]"
+      ]
+    },
+    {
+      "path": "Graphon/HomDensity.lean",
+      "blob_sha": "ce3759eea65c7918347288186415662d33a25f14",
+      "url": "https://github.com/cameronfreer/graphon/blob/9f7be59fa754d260a544b4cfd83d6a5b94f7552e/Graphon/HomDensity.lean",
+      "stripped_blueprint_attributes": [
+        "@[blueprint \"def:homDensity\"\n  (title := /-- Homomorphism density -/)]"
+      ]
+    }
+  ],
+  "compiled_modules": 9,
+  "principal_axiom_audit_log": "bipartite_regularity_build.log",
+  "Latinon_bridge_closure_certificate": "c5_completion_verification.json"
+}

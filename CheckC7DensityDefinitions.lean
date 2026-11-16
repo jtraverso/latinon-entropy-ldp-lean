@@ -1,0 +1,46 @@
+module
+
+public import LatinonPatternNormalization
+public import LatinonSymbolKernelCompression
+
+@[expose] public section
+
+#print axioms LatinonEntropy.finiteIndependentKernel
+#print axioms LatinonEntropy.finiteIndependentKernel_apply
+#print axioms LatinonEntropy.finiteIndependentKernel_markov
+#print axioms LatinonEntropy.finiteIndependentKernel_rectangle
+#print axioms LatinonEntropy.measurable_finiteIndependentKernel_event
+#print axioms LatinonEntropy.latinonSymbolKernel_markov
+#print axioms LatinonEntropy.latinon_measure_fst
+#print axioms LatinonEntropy.latinonSymbolKernel_reconstruct
+#print axioms LatinonEntropy.latinonSymbolKernel_rectangle
+#print axioms LatinonEntropy.measurable_latinonSymbolKernel_event
+#print axioms LatinonEntropy.latinonSymbolKernel_real_rectangle
+#print axioms LatinonEntropy.latinonPatternConfigLaw_probability
+#print axioms LatinonEntropy.measurableSet_orderedLatinonPatternConfigs
+#print axioms LatinonEntropy.latinonPatternCellKernel_markov
+#print axioms LatinonEntropy.latinonPatternSymbolKernel_markov
+#print axioms LatinonEntropy.latinonPatternSymbolKernel_rectangle
+#print axioms LatinonEntropy.measurableSet_unitOrderPatternRealizations
+#print axioms LatinonEntropy.latinonPatternSampleLaw_probability
+#print axioms LatinonEntropy.measurableSet_latinonPatternEvent
+#print axioms LatinonEntropy.latinonPatternDensity_eq_setIntegral
+#print axioms LatinonEntropy.latinonPatternDensity_nonneg
+#print axioms LatinonEntropy.latinonPatternSampleLaw_ordered_univ
+#print axioms LatinonEntropy.latinonPatternDensity_le_ordered_mass
+#print axioms LatinonEntropy.unitTupleLaw_probability
+#print axioms LatinonEntropy.measurableSet_strictTupleChamber
+#print axioms LatinonEntropy.unitTupleLaw_ae_injective
+#print axioms LatinonEntropy.strictTupleChambers_disjoint
+#print axioms LatinonEntropy.strictTupleChambers_union
+#print axioms LatinonEntropy.strictTupleChamber_mass_eq
+#print axioms LatinonEntropy.unitTupleLaw_strictMono_normalization
+#print axioms LatinonEntropy.unitTupleLaw_order_preserving_normalization
+#print axioms LatinonEntropy.latinonSymbolKernel_withDensity
+#print axioms LatinonEntropy.latinonSymbolKernel_ae_compression
+#print axioms LatinonEntropy.integrable_real_latinonSymbolKernel_event
+#print axioms LatinonEntropy.orderedLatinonPatternConfigs_normalization
+#print axioms LatinonEntropy.orderedLatinonPatternConfigLaw_probability
+#print axioms LatinonEntropy.orderedLatinonPatternSampleLaw_probability
+#print axioms LatinonEntropy.latinonPatternDensity_eq_orderedSampleLaw
+#print axioms LatinonEntropy.latinonPatternDensity_mem_Icc
