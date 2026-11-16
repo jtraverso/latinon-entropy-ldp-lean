@@ -46,7 +46,7 @@ structure LatinonMeasure where
   yz_uniform : ∀ (T U : Set I), MeasurableSet T → MeasurableSet U →
     measure ((Set.univ ×ˢ T) ×ˢ U) = volume T * volume U
 
-instance (W : LatinonMeasure) : IsProbabilityMeasure W.measure where
+instance instIsProbabilityMeasureLatinonPointMeasure (W : LatinonMeasure) : IsProbabilityMeasure W.measure where
   measure_univ := by
     have h := W.xy_uniform Set.univ Set.univ MeasurableSet.univ MeasurableSet.univ
     simpa only [Set.univ_prod_univ,measure_univ,mul_one] using h
@@ -71,7 +71,7 @@ structure LatinonRelabel where
   equiv : I ≃ᵐ I
   preserves : MeasurePreserving equiv volume volume
 
-instance : CoeFun LatinonRelabel (fun _ => I → I) := ⟨fun e => e.equiv⟩
+instance instCoeFunLatinonRelabelForallElemRealUnitInterval : CoeFun LatinonRelabel (fun _ => I → I) := ⟨fun e => e.equiv⟩
 
 namespace LatinonRelabel
 
@@ -148,7 +148,7 @@ theorem latinonCutDistance_triangle (W V U : LatinonMeasure) :
     latinonCutDistance W U ≤ latinonCutDistance W V+latinonCutDistance V U := by
   sorry
 
-instance : PseudoMetricSpace LatinonMeasure where
+instance instPseudoMetricSpaceLatinonMeasure_latinonPseudometric : PseudoMetricSpace LatinonMeasure where
   dist := latinonCutDistance
   dist_self := latinonCutDistance_self
   dist_comm := latinonCutDistance_symm
@@ -213,8 +213,15 @@ def latinArrayToLatinonMeasure {n : ℕ} (hn : 0 < n) (L : LatinArray n) : Latin
   xz_uniform := finiteLatinMeasure_xz hn L
   yz_uniform := finiteLatinMeasure_yz hn L
 
+section
+local instance instFintypeLatinArray_latinSquareNormalization (n : ℕ) : Fintype (LatinArray n) := by
+  unfold LatinArray
+  infer_instance
+
 /-- The finite set of all labeled Latin squares of a given order. -/
 def allLatinSquares (n : ℕ) : Finset (LatinArray n) := univ
+
+end
 
 instance latinArrayMeasurableSpace (n : ℕ) : MeasurableSpace (LatinArray n) := ⊤
 
@@ -421,6 +428,11 @@ theorem empty_standard_pattern_fiber_eventually_zero {J : Type*} [Fintype J] {k 
       ∀ (n : ℕ) (_hn : N ≤ n), (standardMatrixPatternBoxFamily P z rho n).card=0 := by
   sorry
 
+section
+local instance instFintypeLatinArray_latinTensorLowerBound (n : ℕ) : Fintype (LatinArray n) := by
+  unfold LatinArray
+  infer_instance
+
 /-- Finite squares satisfying every three-coordinate subset-cut tolerance. -/
 def latinTensorCutFamily {n : ℕ} (p : Fin n → Fin n → Fin n → ℝ) (rho : ℝ) :
     Finset (LatinArray n) :=
@@ -441,6 +453,8 @@ theorem finite_latin_tensor_lower_bound (a b rho eta : ℝ) (ha : 0 < a)
       Real.exp (-(∑ x, ∑ i, ∑ j, p x i j*Real.log (p x i j))-
         (2+eta)*(n : ℝ)^2) ≤ (latinTensorCutFamily p rho).card := by
   sorry
+
+end
 
 /-- Sum of matrix entries on a rectangular cut. -/
 def rectMass {n : ℕ} (B : Fin n → Fin n → ℝ) (S T : Finset (Fin n)) : ℝ :=

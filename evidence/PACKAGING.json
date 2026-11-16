@@ -3290,7 +3290,7 @@
       ]
     }
   ],
-  "challenge_lines": 473,
+  "challenge_lines": 487,
   "configuration_adapter": {
     "file": "lakefile.toml",
     "original_sha256": "4ee7943ee550341ce3f9fd4efc75399c9643c7919a5bfd5093281833e169bce4",
@@ -3301,7 +3301,7 @@
       "separate Challenge and Solution libraries"
     ]
   },
-  "challenge_bytes": 22358,
+  "challenge_bytes": 22814,
   "compared_theorems": [
     "LatinonEntropy.latinonCutDistance_self",
     "LatinonEntropy.latinonCutDistance_symm",

@@ -121,6 +121,9 @@ fidelity:
     existing Graphon energyRect helper is made public because its original
     public lemma statement uses it. Proof bodies and mathematical statement
     tokens are unchanged.
+    The standalone interface spells out the original generated instance names
+    and reproduces the two local LatinArray enumeration instances, preserving
+    the exact references required by Comparator's structural comparison.
 
 review:
   status: agent-reviewed

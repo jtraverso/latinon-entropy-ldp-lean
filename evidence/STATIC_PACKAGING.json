@@ -2,8 +2,8 @@
   "status": "PASS_STATIC_PACKAGING",
   "local_lean_build_performed": false,
   "lean_sources": 338,
-  "challenge_lines": 473,
+  "challenge_lines": 487,
   "compared_declarations": 15,
-  "challenge_sha256": "9d3ad9ae3670bb83c04081291147418dd9588395fb0787406a8c42ed9d98ef88",
+  "challenge_sha256": "3b3cad1077d6225501b271a63701915af29ab72918006e176a659f775f6f8ff7",
   "solution_sha256": "fbd34f8ede4ad3f3e8903d1380bbda861d8348b265b7514d69c7df185af09b8c"
 }
