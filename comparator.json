@@ -18,9 +18,10 @@
     "LatinonEntropy.finite_latin_tensor_lower_bound",
     "LatinonEntropy.correction_lemma_five",
     "LatinonEntropy.latinonSymbolKernel._proof_1",
-    "LatinonEntropy.uniformLatinonMeasure._proof_1",
-    "LatinonEntropy.uniformLatinonMeasure._proof_2",
-    "LatinonEntropy.uniformLatinonMeasure._proof_3",
+    "LatinonEntropy.uniformLatinonMeasure_order_preserving",
+    "LatinonEntropy.uniformLatinonMeasure_xy_uniform",
+    "LatinonEntropy.uniformLatinonMeasure_xz_uniform",
+    "LatinonEntropy.uniformLatinonMeasure_yz_uniform",
     "LatinonEntropy.latinArrayToLatinonMeasure._proof_1"
   ],
   "definition_names": [],

@@ -3323,5 +3323,12 @@
     "LatinonEntropy.uniformLatinonMeasure._proof_2",
     "LatinonEntropy.uniformLatinonMeasure._proof_3"
   ],
-  "note": "No proof body was edited; all ported source changes are module/import/visibility adapters. New interface must be checked by the official full GitHub preflight."
+  "note": "No proof body was edited; all ported source changes are module/import/visibility adapters. New interface must be checked by the official full GitHub preflight.",
+  "post_freeze_adapters": [
+    {
+      "module": "LatinonMeasureSpace",
+      "change": "The four field proofs of uniformLatinonMeasure are stated as named theorems (uniformLatinonMeasure_order_preserving, _xy_uniform, _xz_uniform, _yz_uniform) with unchanged proofs, so that no Lean-generated certificate is compared; Palomar rendering needs a source-level declaration for every compared name.",
+      "date": "2026-11-17"
+    }
+  ]
 }

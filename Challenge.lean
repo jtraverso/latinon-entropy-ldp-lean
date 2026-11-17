@@ -51,36 +51,42 @@ instance instIsProbabilityMeasureLatinonPointMeasure (W : LatinonMeasure) : IsPr
     have h := W.xy_uniform Set.univ Set.univ MeasurableSet.univ MeasurableSet.univ
     simpa only [Set.univ_prod_univ,measure_univ,mul_one] using h
 
-/-- Certificates of `uniformLatinonMeasure`. In the source module Lean generates them
-from the field proofs; here they are named explicitly with the generated statements, so
-that each compared declaration has a source-level name. Compared by their statements. -/
-theorem uniformLatinonMeasure._proof_1 : MeasurePreserving (id : I → I) volume volume :=
+/-- The identity order of the uniform Latinon preserves Lebesgue measure. -/
+theorem uniformLatinonMeasure_order_preserving : MeasurePreserving (id : I → I) volume volume :=
   MeasurePreserving.id volume
 
-theorem uniformLatinonMeasure._proof_2 : ∀ (S T : Set I), MeasurableSet S → MeasurableSet T →
-    @DFunLike.coe (Measure LatinonPoint) (Set LatinonPoint) (fun _ => ℝ≥0∞) _
+/-- Row-column marginal of the uniform cube measure. -/
+theorem uniformLatinonMeasure_xy_uniform : ∀ (S T : Set I), MeasurableSet S → MeasurableSet T →
+    @DFunLike.coe (Measure LatinonPoint) (Set LatinonPoint) (fun _ => ENNReal) _
       (((volume : Measure I).prod volume).prod volume) ((S ×ˢ T) ×ˢ Set.univ) =
       volume S * volume T := by
   intro S T _ _
   simp only [Measure.prod_prod,measure_univ,mul_one]
 
-theorem uniformLatinonMeasure._proof_3 : ∀ (S U : Set I), MeasurableSet S → MeasurableSet U →
-    @DFunLike.coe (Measure LatinonPoint) (Set LatinonPoint) (fun _ => ℝ≥0∞) _
+/-- Row-symbol marginal of the uniform cube measure. -/
+theorem uniformLatinonMeasure_xz_uniform : ∀ (S U : Set I), MeasurableSet S → MeasurableSet U →
+    @DFunLike.coe (Measure LatinonPoint) (Set LatinonPoint) (fun _ => ENNReal) _
       (((volume : Measure I).prod volume).prod volume) ((S ×ˢ Set.univ) ×ˢ U) =
       volume S * volume U := by
   intro S U _ _
   simp only [Measure.prod_prod,measure_univ,mul_one]
 
+/-- Column-symbol marginal of the uniform cube measure. -/
+theorem uniformLatinonMeasure_yz_uniform : ∀ (T U : Set I), MeasurableSet T → MeasurableSet U →
+    @DFunLike.coe (Measure LatinonPoint) (Set LatinonPoint) (fun _ => ENNReal) _
+      (((volume : Measure I).prod volume).prod volume) ((Set.univ ×ˢ T) ×ˢ U) =
+      volume T * volume U := by
+  intro T U _ _
+  simp only [Measure.prod_prod,measure_univ,one_mul]
+
 /-- Uniform cube measure with identity order. -/
 def uniformLatinonMeasure : LatinonMeasure where
   measure := ((volume : Measure I).prod volume).prod volume
   order := id
-  order_preserving := uniformLatinonMeasure._proof_1
-  xy_uniform := uniformLatinonMeasure._proof_2
-  xz_uniform := uniformLatinonMeasure._proof_3
-  yz_uniform := by
-    intro T U _ _
-    simp only [Measure.prod_prod,measure_univ,one_mul]
+  order_preserving := uniformLatinonMeasure_order_preserving
+  xy_uniform := uniformLatinonMeasure_xy_uniform
+  xz_uniform := uniformLatinonMeasure_xz_uniform
+  yz_uniform := uniformLatinonMeasure_yz_uniform
 
 /-- A measurable, measure-preserving bijection of the unit interval. -/
 structure LatinonRelabel where
