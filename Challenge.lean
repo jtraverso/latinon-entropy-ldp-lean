@@ -300,7 +300,8 @@ def orderPatternRealizations {k l : ℕ} (P : LatinOrderPattern k l) :
 generates it from the instance argument of `condKernel`; here it is named explicitly with
 the generated statement and used as the instance. Compared by its statement. -/
 theorem latinonSymbolKernel._proof_1 (W : LatinonMeasure) :
-    @IsFiniteMeasure ((I × I) × I) _ W.measure :=
+    type_of% ((fun {α Ω : Type} {mα : MeasurableSpace α} {mΩ : MeasurableSpace Ω}
+      (ρ : Measure (α × Ω)) (h : IsFiniteMeasure ρ) => h) W.measure inferInstance) :=
   inferInstance
 
 section
