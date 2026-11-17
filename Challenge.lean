@@ -296,12 +296,14 @@ def orderPatternRealizations {k l : ℕ} (P : LatinOrderPattern k l) :
     Set ((Fin k × Fin l) → ℝ) :=
   {v | ∀ a b, P a < P b → v a < v b}
 
-/-- Finiteness certificate used by `latinonSymbolKernel`. In the source module Lean
-generates it from the instance argument of `condKernel`; here it is named explicitly with
-the generated statement and used as the instance. Compared by its statement. -/
-theorem latinonSymbolKernel._proof_1 (W : LatinonMeasure) :
+/-- Standard Borel certificate used by `latinonSymbolKernel`. In the source module Lean
+generates it from the first instance argument of `condKernel`; here it is named explicitly,
+with the statement computed through the same unification as `condKernel`'s binders, and
+used as the instance. Compared by its statement. -/
+theorem latinonSymbolKernel._proof_1 :
     type_of% ((fun {α Ω : Type} {mα : MeasurableSpace α} {mΩ : MeasurableSpace Ω}
-      (ρ : Measure (α × Ω)) (h : IsFiniteMeasure ρ) => h) W.measure inferInstance) :=
+      (_ρ : Measure (α × Ω)) (h : StandardBorelSpace Ω) => h)
+      uniformLatinonMeasure.measure inferInstance) :=
   inferInstance
 
 section
