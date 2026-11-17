@@ -40,11 +40,17 @@ without importing project proofs. Every hole in Challenge is named in
 `comparator.json`; the proved Solution may use only `propext`, `Classical.choice`
 and `Quot.sound`.
 
-The configuration also compares four generated proof certificates: the
-conditional-kernel finiteness certificate `latinonSymbolKernel._proof_1` and
-the three marginal certificates `uniformLatinonMeasure._proof_1` through
-`uniformLatinonMeasure._proof_3`. Both sides prove these auxiliary propositions;
-Comparator checks their statements while permitting different proof terms.
+The configuration also compares six certificate statements used by the compared
+definitions: the standard Borel certificate of the conditional symbol kernel,
+`latinonSymbolKernel._proof_1`; four certificates of the uniform Latinon,
+`uniformLatinonMeasure_order_preserving` (its identity order preserves Lebesgue
+measure) and the three pair marginals `uniformLatinonMeasure_xy_uniform`,
+`uniformLatinonMeasure_xz_uniform` and `uniformLatinonMeasure_yz_uniform`; and the
+identity-order certificate of the finite embedding,
+`latinArrayToLatinonMeasure._proof_1`. Both sides prove these auxiliary
+propositions; Comparator checks their statements while permitting different
+proof terms. In all, `comparator.json` selects twenty-one statements: nine
+principal, six auxiliary and these six certificates.
 The Challenge still has exactly fifteen deliberate theorem holes and no
 definition holes.
 

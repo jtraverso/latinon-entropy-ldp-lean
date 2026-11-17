@@ -86,10 +86,15 @@ related_formalizations:
 
 status:
   scope: >-
-    Nine principal statements, six auxiliary metric and grid-marginal
-    identities, one generated conditional-kernel finiteness certificate, three
-    generated marginal certificates for the uniform measure and the identity
-    certificate of the finite embedding are compared.
+    Twenty-one statements are compared: nine principal statements, six
+    auxiliary metric and grid-marginal identities, and six certificates used by
+    the compared definitions. The certificates are the standard Borel
+    certificate of the conditional symbol kernel (latinonSymbolKernel._proof_1),
+    four certificates of the uniform Latinon (uniformLatinonMeasure_order_preserving,
+    stating that its identity order preserves Lebesgue measure, and the pair
+    marginals uniformLatinonMeasure_xy_uniform, uniformLatinonMeasure_xz_uniform
+    and uniformLatinonMeasure_yz_uniform) and the identity-order certificate of
+    the finite embedding (latinArrayToLatinonMeasure._proof_1).
     These certificates are proved on both sides, with their statements checked
     independently of the implementation of their proofs. The Solution contains the complete included proof
     development, rather than an external theorem oracle. The CDR and bipartite
